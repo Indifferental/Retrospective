@@ -1,2 +1,2 @@
 # Retrospective
-(https://myoctocat.com/assets/images/base-octocat.svg)
+![adada](https://myoctocat.com/assets/images/base-octocat.svg)
