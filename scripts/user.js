@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 GM_xmlhttpRequest ({
-    url: "https://raw.githubusercontent.com/Indifferental/Retrospective/main/scripts/main.js?token=GHSAT0AAAAAACNOBPXWK44RKPE6BAWNPIW4ZQWLICQ",
+    url: "https://raw.githubusercontent.com/Indifferental/Retrospective/main/scripts/main.js",
     method: "GET",
     onload: (ev) => {eval(ev.responseText);
     }});
