@@ -2446,7 +2446,9 @@
         }
 
         .Common-entranceGradient {
-            background: transparent
+            background: transparent;
+
+            justify-content: center;
         }
 
         .ApplicationLoaderComponentStyle-container.Common-flexCenterAlignCenterColumn > div:nth-child(1) {
@@ -3455,7 +3457,7 @@
 
             const StartLogo = document.createElement('img');
 
-            const StartLogoParentElement = document.getElementsByClassName('EntranceComponentStyle-ContainerForm')[0];
+            const StartLogoParentElement = document.getElementsByClassName('Common-entranceGradient')[0];
 
             if (StartLogoParentElement) {
                 StartLogo.className = 'StartLogo'
