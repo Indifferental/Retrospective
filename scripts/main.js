@@ -3252,6 +3252,11 @@
             background: transparent
         }
 
+        .EntranceComponentStyle-ContainerForm {
+            position: absolute;
+            align-items: center;
+            justify-content: center;
+        }
         `
 
         function MainLayerFunction(css) {
@@ -3451,7 +3456,6 @@
             const StartLogo = document.createElement('img');
 
             const StartLogoParentElement = document.getElementsByClassName('EntranceComponentStyle-ContainerForm')[0];
-                  StartLogoParentElement.style = 'align-items: center; justify-content: center; position: absolute'
 
             if (StartLogoParentElement) {
                 StartLogo.className = 'StartLogo'
