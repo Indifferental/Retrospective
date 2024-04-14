@@ -1,5 +1,3 @@
-    /* туалет пошел нахуй отсюда */
-
     function Hyperlink() {
 
         function CreateLink() {
@@ -642,6 +640,10 @@
 
         const css = `
 
+        .body {
+            background: transparent;
+        }
+
         .Common-entranceGradient-entranceLogo {
             filter: drop-shadow(0 0 10px rgb(0 0 0 / 50%));
 
@@ -800,7 +802,7 @@
         .LoadingAnimation-innerRing {
             background: transparent;
             transform: rotate(90deg);
-            border: 12px solid;
+            border: 8px solid;
             border-color: white transparent;
             border-radius: 50%;
             position: absolute;
@@ -812,7 +814,7 @@
 
         .LoadingAnimation-outerRing {
             background: transparent;
-            border: 12px solid;
+            border: 8px solid;
             border-color: white transparent;
             border-radius: 50%;
             position: absolute;
@@ -1900,6 +1902,14 @@
             width: 20em
         }
 
+        .AnnouncementHomeScreenComponentStyle-mainContainer > div.Common-flexCenterAlignCenterColumn > div.AnnouncementHomeScreenComponentStyle-navigationContainer > .Common-buttonQE {
+            visibility: visible;
+            position: relative;
+            width: 1.5em;
+            height: 1.5em;
+            padding: 0.2em;
+        }
+
         .AnnouncementComponentStyle-mainContainer {
             margin-top: 3em;
         }
@@ -1972,7 +1982,7 @@
         .EventBattlePassLobbyComponentStyle-descriptionEventPass h2 {
             color: white;
             text-shadow: 0 0 4px rgb(0 0 0 / 75%);;
-            font-size: 1.75em;
+            font-size: 1.5em;
         }
 
         .EventBattlePassLobbyComponentStyle-descriptionEventPass {
@@ -3978,6 +3988,7 @@
         .BattleKillBoardComponentStyle-tableContainer table tbody #enemyCommand,
         .BattleKillBoardComponentStyle-tableContainer table tbody #blueCommand {
             backdrop-filter: blur(6px);
+            border-radius: 0.5vw;
         }
 
         BattleTabStatisticComponentStyle-dmTableContainer table tbody tr {
@@ -4084,6 +4095,14 @@
 
         .BattleKillBoardComponentStyle-tableContainer table tbody tr td span {
             text-shadow: 0 0 4px rgb(0 0 0 / 75);
+        }
+
+        .BattleKillBoardComponentStyle-tableContainer table tbody tr td span.GearScoreStyle-bestGS {
+            text-shadow: unset;
+        }
+
+        .BattleKillBoardComponentStyle-tableContainer table thead tr th {
+            height: 2em;
         }
 
         .BattleComponentStyle-canvasContainer > .BattleHudComponentStyle-hudContainer > div > .UserInfoContainerStyle-userTitleContainer > .Common-flexStartAlignCenter > .UserInfoContainerStyle-containerProgressMainScreen {
