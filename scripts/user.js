@@ -12,4 +12,5 @@
     GM_xmlhttpRequest ({
         url: "https://raw.githubusercontent.com/Indifferental/Retrospective/main/scripts/main.js",
         method: "GET",
-        onload: (ev) => { eval(ev.responseText) }})
+        onload: (ev) => { eval(ev.responseText) }
+    })
