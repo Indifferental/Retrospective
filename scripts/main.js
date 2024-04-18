@@ -1887,7 +1887,7 @@
             width: 20em;
             height: 10em;
             margin-left: 96.5em;
-            top: 20em;
+            top: 28em;
             bottom: unset;
             right: unset;
         }
@@ -1971,7 +1971,7 @@
             width: 20em;
             height: 7em;
             margin-left: 96.5em;
-            top: 31em;
+            top: 20em;
             right: unset;
         }
 
