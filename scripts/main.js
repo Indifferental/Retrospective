@@ -1,15 +1,3 @@
-// ==UserScript==
-// @name         Retrospective inDev
-// @namespace    http://tampermonkey.net/
-// @version      none
-// @description  none
-// @author       https://vk.com/drawingwithblood
-// @match        https://*.tankionline.com/*
-// @icon         https://github.com/Indifferental/Retrospective/blob/main/source/logo.png?raw=true
-// @grant        none
-// ==/UserScript==
-
-
     function MenuSegments() {
 
         function LeftSegment() {
@@ -799,7 +787,7 @@
 
             position: absolute;
             margin-bottom: unset;
-            top: -0.5em;
+            top: 6em;
         }
 
         .EntranceComponentStyle-ContainerForm > form {
@@ -1666,6 +1654,16 @@
             0% {
                 opacity: 0;
                 transform: translateY(10px);
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes translateDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-10px);
             }
             100% {
                 opacity: 1;
@@ -3154,6 +3152,10 @@
             transition: all 200ms ease-out 0s;
         }
 
+        .AnimationOpenContainerComponentStyle-rewardContainer {
+            backdrop-filter: blur(6px);
+        }
+
         .ReceivedRewardsComponentStyle-rewards > .ReceivedRewardsComponentStyle-stringRewards > div {
             backdrop-filter: blur(6px);
             border-radius: 0.5vw;
@@ -3853,6 +3855,8 @@
         .BattleKillBoardComponentStyle-tableContainer table tbody #blueCommand {
             backdrop-filter: blur(6px);
             border-radius: 0.5vw;
+
+            animation: blending 200ms ease-in-out;
         }
 
         BattleTabStatisticComponentStyle-dmTableContainer table tbody tr {
@@ -3865,6 +3869,14 @@
 
         .BattleTabStatisticComponentStyle-dmTableContainer table thead tr th:nth-child(n+1) {
             visibility: hidden
+        }
+
+        .BattleResultQuestProgressComponentStyle-container,
+        .BattleResultUserInfoComponentStyle-progressVictoryContainer,
+        .BattleRewardsComponentStyle-normalRow,
+        .BattleRewardsComponentStyle-selectedRow {
+            border-radius: 0.5vw;
+            backdrop-filter: blur(10px);
         }
 
         .BattleTabStatisticComponentStyle-containerInsideResults {
@@ -3957,12 +3969,27 @@
             background: rgb(185 135 255 / 25%)
         }
 
-        .BattleKillBoardComponentStyle-tableContainer table tbody tr td span {
-            text-shadow: 0 0 4px rgb(0 0 0 / 75);
+        .BattleKillBoardComponentStyle-col3 span,
+        .BattleKillBoardComponentStyle-col4 span,
+        .BattleKillBoardComponentStyle-col5 span,
+        .BattleKillBoardComponentStyle-col6 span {
+            text-shadow: 0 0 4px rgb(0 0 0 / 75%);
         }
 
-        .BattleKillBoardComponentStyle-tableContainer table tbody tr td span.GearScoreStyle-bestGS {
-            text-shadow: unset;
+        .BattleKillBoardComponentStyle-tableContainer table tbody tr td > :last-child {
+            margin-right: unset;
+        }
+
+        .BattleResultNavigationComponentStyle-commonBlockBattleResultNavigation {
+            border: unset;
+        }
+
+        .BattleResultNavigationComponentStyle-commonBlockBattleResultNavigation > .Common-flexCenterAlignCenter > div {
+            justify-content: center;
+        }
+
+        .BattleResultHeaderComponentStyle-descriptionVictory {
+            animation: translateDown 200ms ease-in-out;
         }
 
         .BattleKillBoardComponentStyle-tableContainer table thead tr th {
