@@ -1,15 +1,3 @@
-// ==UserScript==
-// @name         Retrospective inDev
-// @namespace    http://tampermonkey.net/
-// @version      none
-// @description  none
-// @author       https://vk.com/drawingwithblood
-// @match        https://*.tankionline.com/*
-// @icon         https://github.com/Indifferental/Retrospective/blob/main/source/logo.png?raw=true
-// @grant        none
-// ==/UserScript==
-
-
     function Hyperlink() {
 
         function CreateLink() {
