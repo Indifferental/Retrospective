@@ -860,7 +860,7 @@
         .RightSegment:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .Common-contentSpaceBetween > div.EntranceComponentStyle-ContainerForm {
@@ -947,7 +947,7 @@
         .UserScoreComponentStyle-blockRightPanel > div:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .UserScoreComponentStyle-blockRightPanel > div > div.HeaderCommonStyle-icons {
@@ -995,7 +995,7 @@
         .UserScoreComponentStyle-blockRightPanel > div.BreadcrumbsComponentStyle-logout:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .BreadcrumbsComponentStyle-iconLogout,
@@ -1024,7 +1024,7 @@
         .UserScoreComponentStyle-blockRightPanel > div.Common-flexCenterAlignCenter:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .UserInfoContainerStyle-blockForIconTankiOnline {
@@ -1041,7 +1041,7 @@
         .UserInfoContainerStyle-blockForIconTankiOnline:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .MainScreenComponentStyle-containerPanel,
@@ -1075,7 +1075,7 @@
         .MainScreenComponentStyle-containerPanel > .UserInfoContainerStyle-blockLeftPanel > .UserInfoContainerStyle-userTitleContainer > div.Common-flexCenterAlignCenter:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
             border-radius: 0.5vw;
         }
 
@@ -1101,7 +1101,7 @@
         .MainScreenComponentStyle-containerPanel > .UserInfoContainerStyle-blockLeftPanel > .UserInfoContainerStyle-userTitleContainer > div.Common-flexStartAlignCenter:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
             border-radius: 0.5vw;
         }
 
@@ -1150,7 +1150,7 @@
         .MainScreenComponentStyle-containerPanel > .UserInfoContainerStyle-blockLeftPanel > .UserInfoContainerStyle-userTitleContainer > div.Common-flexCenterAlignCenterColumn:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .MainScreenComponentStyle-containerPanel > .UserInfoContainerStyle-blockLeftPanel > .UserInfoContainerStyle-userTitleContainer > div.Common-flexCenterAlignCenter > .UserGroupTitleButtonComponentStyle-commonBlockGroup {
@@ -1263,7 +1263,7 @@
         .PrimaryMenuItemComponentStyle-itemCommonLi:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
             border-radius: 0.5vw;
         }
 
@@ -1364,7 +1364,7 @@
         .BreadcrumbsComponentStyle-rightButtonsContainer > div:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .BreadcrumbsComponentStyle-rightButtonsContainer > div.BreadcrumbsComponentStyle-exitGameButton {
@@ -1419,7 +1419,7 @@
         }
 
         .FooterComponentStyle-footer li {
-            background-color: rgb(0 0 0 / 15%);
+            background-color: rgb(0 0 0 / 10%);
             backdrop-filter: blur(6px);
             border-radius: 0.5vw;
 
@@ -1433,7 +1433,7 @@
         .FooterComponentStyle-footer li:hover {
             background-color: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
             border-radius: 0.5vw;
 
             width: 20em;
@@ -1597,7 +1597,7 @@
         .MainScreenComponentStyle-buttonPlay:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
             border-radius: 0.5vw;
         }
 
@@ -1722,7 +1722,7 @@
 
         .ChatComponentStyle-channels > .ChatComponentStyle-channelsSelect > select:hover {
             background: rgb(255 255 255 / 10%);
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .NewsComponentStyle-closeArea {
@@ -1753,12 +1753,12 @@
         .NewsComponentStyle-newsWindow:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .NewsComponentStyle-newsContainer > div {
             background: rgb(255 255 255 / 5%);
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .NewsComponentStyle-newsItemHeader > h1,
@@ -1824,10 +1824,24 @@
             animation: translateUp 200ms ease-out;
         }
 
+        .InvitationWindowsComponentStyle-commonBorder,
+        .InvitationWindowsComponentStyle-commonBlockButton,
+        .InvitationWindowsComponentStyle-commonBlockButton:hover {
+            border: unset;
+
+            transition: all 200ms ease-out 0s;
+        }
+
         .InvitationWindowsComponentStyle-commonItem {
-            width: 20em;
-            top: 16em;
+            background: rgb(0 0 0 / 10%);
+            border-radius: 0.5vw;
+            backdrop-filter: blur(6px);
+
+            width: 27em;
+            top: 9em;
             left: 8em;
+
+            animation: blending 200ms ease-in-out;
         }
 
         .InvitationWindowsComponentStyle-buttonsContainer > .InvitationWindowsComponentStyle-backButton {
@@ -1843,7 +1857,7 @@
         .InvitationWindowsComponentStyle-buttonsContainer > .InvitationWindowsComponentStyle-backButton:hover {
             background: rgb(190 210 255 / 25%);
             box-shadow: rgb(190 210 255 / 50%) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .InvitationWindowsComponentStyle-buttonsContainer > .InvitationWindowsComponentStyle-buttons > .InvitationWindowsComponentStyle-inviteButton {
@@ -1860,7 +1874,7 @@
         .InvitationWindowsComponentStyle-buttonsContainer > .InvitationWindowsComponentStyle-buttons > .InvitationWindowsComponentStyle-inviteButton:hover {
             background: rgb(120 255 50 / 25%);
             box-shadow: rgb(120 255 50 / 50%) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .InvitationWindowsComponentStyle-buttonsContainer > .InvitationWindowsComponentStyle-buttons > .ButtonComponentStyle-disabled {
@@ -1896,7 +1910,7 @@
             border: unset;
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .AnnouncementHomeScreenComponentStyle-mainBackGroundContainer {
@@ -1956,7 +1970,7 @@
         .BattlePassLobbyComponentStyle-menuBattlePass:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .EventBattlePassLobbyComponentStyle-buttonEventBattlePass {
@@ -1978,7 +1992,7 @@
         .EventBattlePassLobbyComponentStyle-buttonEventBattlePass:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .EventBattlePassLobbyComponentStyle-commonBlockProgressBar {
@@ -2159,7 +2173,7 @@
         .FriendListComponentStyle-containerForm > .FriendListComponentStyle-buttonCloseAddFriends:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .ClanCommonStyle-tableInvite thead tr th {
@@ -2199,7 +2213,7 @@
         .TableComponentStyle-row:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .FriendRequestComponentStyle-blockInformationCommunityNoSearch {
@@ -2245,7 +2259,7 @@
         .FriendListComponentStyle-blockList:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .SearchInputComponentStyle-searchInput {
@@ -2303,7 +2317,7 @@
         .FriendListComponentStyle-containerButtonFriends:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .FriendListComponentStyle-containerButtonFriends > div,
@@ -2328,7 +2342,7 @@
         .FriendRequestComponentStyle-buttonDeclineAll:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .FriendListComponentStyle-blockOnline {
@@ -2390,7 +2404,7 @@
         }
 
         .FriendListComponentStyle-rangFriends {
-            filter: drop-shadow(0 0 2px black)
+            filter: drop-shadow(0 0 2px rgb(0 0 0 / 75%))
         }
 
         .InvitationWindowsComponentStyle-centerBlock,
@@ -2420,7 +2434,7 @@
         .InvitationWindowsComponentStyle-usersScroll > .Common-flexStartAlignStretch > .Common-whiteSpaceNoWrap:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .InvitationWindowsComponentStyle-substrateRank {
@@ -2481,7 +2495,7 @@
         .BreadcrumbsComponentStyle-headerContainer > div.BreadcrumbsComponentStyle-breadcrumbs:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .BreadcrumbsComponentStyle-headerContainer > div.Common-flexCenterAlignStart > div.Common-flexStartAlignCenter {
@@ -2501,7 +2515,7 @@
         .BreadcrumbsComponentStyle-headerContainer > div.Common-flexCenterAlignStart > div.Common-flexStartAlignCenter:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .BreadcrumbsComponentStyle-headerContainer > div.Common-flexCenterAlignStart > div.Common-flexStartAlignCenter > div.UserInfoContainerStyle-containerProgressMainScreen {
@@ -2541,7 +2555,7 @@
         .BreadcrumbsComponentStyle-headerContainer > div.Common-flexCenterAlignStart > div.BreadcrumbsComponentStyle-backButton:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .BreadcrumbsComponentStyle-headerContainer > div.Common-flexCenterAlignStart > div.Common-flexCenterAlignCenter,
@@ -2608,7 +2622,7 @@
         .GarageMainScreenStyle-blockParameters > div > .TankParametersStyle-leftParamsContainer:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .TankParametersStyle-iconGS {
@@ -2785,7 +2799,7 @@
         .MountedItemsStyle-containerBlockGarage > div:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .MountedItemsStyle-containerBlockGarage > div:hover:before {
@@ -2808,7 +2822,7 @@
         .GarageCommonStyle-subMenu > .Common-flexSpaceBetweenAlignStartColumn:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .SkinsComponentStyle-styleColumn > .SkinCellStyle-widthHeight {
@@ -2827,7 +2841,7 @@
         .SkinsComponentStyle-styleColumn > .SkinCellStyle-widthHeight:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
 
             cursor: pointer;
         }
@@ -2852,7 +2866,7 @@
         }
 
         .SuppliesComponentStyle-screenShotButtonOpen {
-            background-color: rgb(0 0 0 / 15%);
+            background-color: rgb(0 0 0 / 10%);
             background-image: url(data:image/png;base64,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);
             background-size: 2.5em;
             backdrop-filter: blur(6px);
@@ -2873,7 +2887,7 @@
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
             background-image: url(data:image/png;base64,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);
             background-size: 3em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .SuppliesComponentStyle-containersBlocks {
@@ -2911,7 +2925,7 @@
         .SuppliesComponentStyle-cellAdd:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .SuppliesComponentStyle-cellAdd:last-child {
@@ -2954,7 +2968,7 @@
         .ProBattlesComponentStyle-chatBlock:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .ProBattlesComponentStyle-chatBlock > .HotKey-commonBlockForHotKey {
@@ -2974,7 +2988,7 @@
 
         .UsersTableStyle-rowBattle:hover {
             background: rgb(255 255 255 / 15%);
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .UsersTableStyle-rowBattleEmpty {
@@ -3038,6 +3052,43 @@
         .BattleInfoComponentStyle-invite > .Common-flexStartAlignCenter > .BattleInfoComponentStyle-linkCustomOptions {
             margin-right: unset;
             margin-left: 0.5em;
+        }
+
+        .BattleModesComponentStyle-blockCenter {
+            margin-top: 2em;
+        }
+
+        .BattleModesComponentStyle-cardContentUp > .Common-flexSpaceBetweenAlignCenterColumn,
+        .BattleModesComponentStyle-cardDown > .Common-flexSpaceBetweenAlignCenterColumn {
+            background: rgb(0 0 0 / 10%);
+            backdrop-filter: blur(6px);
+            border-radius: 0.5vw;
+            box-shadow: unset;
+
+            transition: all 200ms ease-out 0s;
+
+            animation: blending 200ms ease-out;
+        }
+
+        .BattleModesComponentStyle-cardContentUp > .Common-flexSpaceBetweenAlignCenterColumn:hover,
+        .BattleModesComponentStyle-cardDown > .Common-flexSpaceBetweenAlignCenterColumn:hover {
+            background: rgb(255 255 255 / 15%);
+            box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
+            backdrop-filter: blur(12px);
+        }
+
+        .BattleModesComponentStyle-cardContentUp > .Common-flexSpaceBetweenAlignCenterColumn > .Common-flexCenterAlignCenterColumn > h2 {
+            color: white;
+            transition: all 200ms ease-out;
+        }
+
+        .BattleModesComponentStyle-cardContentUp > .Common-flexSpaceBetweenAlignCenterColumn:hover h2 {
+            color: rgb(120 255 50);
+        }
+
+        .BattleModesComponentStyle-imageBlock > div {
+            background-color: white;
+            transition: all 200ms ease-out;
         }
 
         .MenuComponentStyle-decorLineMenu,
@@ -3109,7 +3160,7 @@
         .LargeShowcaseItemComponentStyle-container:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
 
             transform: unset;
         }
@@ -3143,7 +3194,7 @@
         .ClanInfoComponentStyle-messageClan:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .ClanProfileEditComponentStyle-clanDescriptionEdit,
@@ -3196,7 +3247,7 @@
         .ClanCommonStyle-buttonInvite:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .ClanInfoComponentStyle-buttonEditProfile > span {
@@ -3227,7 +3278,7 @@
 
         .SettingsMenuComponentStyle-menuItemOptions {
             background: rgb(0 0 0 / 10%);
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
             margin-top: 1.5em;
             height: 4em;
             border-radius: 0.5vw;
@@ -3244,7 +3295,7 @@
         .SettingsMenuComponentStyle-menuItemOptions.SettingsMenuComponentStyle-activeItemOptions {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .SettingsMenuComponentStyle-slideMenuOptions {
@@ -3388,7 +3439,7 @@
         .Common-container > .ProBattlesComponentStyle-navigationBlock > .ProBattlesComponentStyle-commonBlockHotkeyV:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .MainQuestComponentStyle-cardCommonLocked {
@@ -3467,7 +3518,8 @@
             visibility: hidden;
         }
 
-        .SuperMissionComponentStyle-descriptionSuperMission > .Common-flexSpaceBetween > .SuperMissionComponentStyle-buttonDisable {
+        .SuperMissionComponentStyle-descriptionSuperMission > .Common-flexSpaceBetween > .SuperMissionComponentStyle-buttonDisable,
+        .SuperMissionComponentStyle-descriptionSuperMission > .Common-flexSpaceBetween > .SuperMissionComponentStyle-buttonCollect {
             border-bottom-left-radius: 0.5vw;
             border-bottom-right-radius: 0.5vw;
         }
@@ -3570,7 +3622,7 @@
         .GarageCommonStyle-animatedBlurredLeftBlock > div:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .GarageCommonStyle-animatedBlurredLeftBlock > div.ItemDescriptionComponentStyle-descriptionBlockDevice,
@@ -3636,7 +3688,7 @@
         .ListItemsComponentStyle-itemsContainer > .Common-flexSpaceBetweenAlignCenterColumn > .Common-itemStyle:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .ListItemsComponentStyle-itemsListContainer,
@@ -3930,7 +3982,7 @@
         .ProBattlesComponentStyle-createBattleButton:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .ProBattlesComponentStyle-createBattleButton h3 {
@@ -3985,7 +4037,7 @@
         .Common-flexCenterAlignCenter.JoinToBattleComponentStyle-newButtonJoinA.JoinToBattleComponentStyle-buttonJoin:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: unset;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .Common-flexCenterAlignCenter.JoinToBattleComponentStyle-newButtonJoinA.JoinToBattleComponentStyle-buttonJoin > .HotKey-commonBlockForHotKey {
@@ -4045,13 +4097,13 @@
         .BattleRewardsComponentStyle-normalRow,
         .BattleRewardsComponentStyle-selectedRow {
             border-radius: 0.5vw;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .BattleTabStatisticComponentStyle-containerInsideResults {
             background: rgb(0 0 0 / 10%);
             box-shadow: rgb(0 0 0 / 50%) 0em 0em 0.25em 0.025em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
 
             animation: blending 100ms ease-in-out;
         }
@@ -4059,7 +4111,7 @@
         .BattleTabStatisticComponentStyle-containerInsideTeams {
             background: rgb(0 0 0 / 10%);
             box-shadow: rgb(0 0 0 / 50%) 0em 0em 0.25em 0.025em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
 
             width: 100em;
 
@@ -4206,7 +4258,7 @@
         .BattlePauseMenuComponentStyle-menuButton:hover {
             background: rgb(255 255 255 / 15%);
             box-shadow: rgb(255 255 255) 0em 0em 0em 0.1em;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .BattlePauseMenuComponentStyle-selectedMenuRedButton {
@@ -4215,7 +4267,7 @@
 
         .BattlePauseMenuComponentStyle-selectedMenuRedButton:hover {
             border: 2px solid rgb(255 5 5);
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(12px);
         }
 
         .BattlePauseMenuComponentStyle-blackGlobalWrapper {
@@ -4266,7 +4318,7 @@
         const Menu = document.createElement('div');
 
               Menu.className = 'Menu'
-              Menu.style = 'background: rgb(0 0 0 / 25%); box-shadow: 0em 0em 1em rgb(0 0 0 / 50%);  backdrop-filter: blur(10px); position: absolute; display: flex; align-items: center; justify-content: center; left: 8em; top: 10em; z-index: 1000; width: 40em; height: 16em; border-radius: 0.5vw; animation: blending 100ms ease-out forwards;'
+              Menu.style = 'background: rgb(0 0 0 / 25%); box-shadow: 0em 0em 1em rgb(0 0 0 / 50%);  backdrop-filter: blur(12px); position: absolute; display: flex; align-items: center; justify-content: center; left: 8em; top: 10em; z-index: 1000; width: 40em; height: 16em; border-radius: 0.5vw; animation: blending 100ms ease-out forwards;'
 
         const MenuHeader = document.createElement('div');
 
@@ -4301,7 +4353,7 @@
         const Button$1Container = document.createElement('div');
 
               Button$1Container.className = 'Button$1Container'
-              Button$1Container.style = 'background: rgb(0 0 0 / 25%); box-shadow: rgba(0 0 0 / 50%) 0em 0em 1em; border-radius: 6px; cursor: pointer; width: 6.5em; height: 2em; position: absolute; left: 2em; top: 5em; display: flex; justify-content: center; align-items: center;'
+              Button$1Container.style = 'background: rgb(0 0 0 / 25%); box-shadow: rgba(0 0 0 / 50%) 0em 0em 1em; border-radius: 6px; cursor: pointer; width: 6.5em; height: 2em; position: absolute; left: 2em; top: 5.5em; display: flex; justify-content: center; align-items: center;'
 
               Menu.appendChild(Button$1Container);
 
@@ -4467,9 +4519,9 @@
 
         function BackgroundButton() {
 
-            let Str = localStorage.getItem('Str') === 'true'
+            let RS_BackgroundToggle = localStorage.getItem('RS_BackgroundToggle') === 'true'
 
-            function BackgroundChanger(css) {
+            function LayerFunction(css) {
 
                 const body = document.body || document.getElementsByTagName('body')[0];
 
@@ -4494,7 +4546,7 @@
 
                 Button$1.style = 'background: rgb(255 255 255 / 50%); box-shadow: rgba(255 255 255 / 50%) 0em 0em 1em; border: 2px solid rgb(255 255 255 / 25%); border-radius: 6px; width: 3em; height: 1.5em; margin-left: 3em; display: flex; justify-content: center; align-items: center; transition: all 200ms ease-out 0s; position: absolute; z-index: 999;'
 
-                Button$1Container.style = 'background: rgb(255 255 255 / 5%); box-shadow: rgba(0 0 0 / 50%) 0em 0em 1em; border-radius: 6px; cursor: pointer; width: 6.5em; height: 2em; position: absolute; left: 2em; top: 5em; display: flex; justify-content: center; align-items: center;'
+                Button$1Container.style = 'background: rgb(255 255 255 / 5%); box-shadow: rgba(0 0 0 / 50%) 0em 0em 1em; border-radius: 6px; cursor: pointer; width: 6.5em; height: 2em; position: absolute; left: 2em; top: 5.5em; display: flex; justify-content: center; align-items: center;'
 
                 const css = `
 
@@ -4504,7 +4556,7 @@
 
                 `
 
-                BackgroundChanger(css);
+                LayerFunction(css);
 
             };
 
@@ -4512,7 +4564,7 @@
 
                 Button$1.style = 'background: rgb(0 0 0 / 50%); box-shadow: rgba(0 0 0 / 50%) 0em 0em 1em; border: 2px solid rgb(100 100 100 / 25%); border-radius: 6px; width: 3em; height: 1.5em; margin-right: 3em; display: flex; justify-content: center; align-items: center; transition: all 200ms ease-out 0s; position: absolute; z-index: 999;'
 
-                Button$1Container.style = 'background: rgb(0 0 0 / 25%); box-shadow: rgba(0 0 0 / 50%) 0em 0em 1em; border-radius: 6px; cursor: pointer; width: 6.5em; height: 2em; position: absolute; left: 2em; top: 5em; display: flex; justify-content: center; align-items: center;'
+                Button$1Container.style = 'background: rgb(0 0 0 / 25%); box-shadow: rgba(0 0 0 / 50%) 0em 0em 1em; border-radius: 6px; cursor: pointer; width: 6.5em; height: 2em; position: absolute; left: 2em; top: 5.5em; display: flex; justify-content: center; align-items: center;'
 
                 const StyleElement = document.querySelector('.BackgroundChanger');
 
@@ -4526,25 +4578,25 @@
 
             function Button$1Toggle() {
 
-                Str = !Str
+                RS_BackgroundToggle = !RS_BackgroundToggle
 
-                if (Str) {
+                if (RS_BackgroundToggle) {
 
                     AddCustomBackground();
 
                 }
 
-                if (!Str) {
+                if (!RS_BackgroundToggle) {
 
                     RemoveCustomBackground();
 
                 };
 
-                localStorage.setItem('Str', Str.toString());
+                localStorage.setItem('RS_BackgroundToggle', RS_BackgroundToggle.toString());
 
             };
 
-            if (Str) {
+            if (RS_BackgroundToggle) {
 
                 AddCustomBackground();
 
@@ -4563,9 +4615,9 @@
 
         function SuppliesButton() {
 
-            let SuppliesToggle = localStorage.getItem('SuppliesToggle') === 'true'
+            let RS_SuppliesToggle = localStorage.getItem('RS_SuppliesToggle') === 'true'
 
-            function EditSupplies(css) {
+            function LayerFunction(css) {
 
                 const body = document.body || document.getElementsByTagName('body')[0];
 
@@ -4606,7 +4658,7 @@
 
                 `
 
-                EditSupplies(css);
+                LayerFunction(css);
 
             };
 
@@ -4614,7 +4666,7 @@
 
                 Button$2.style = 'background: rgb(0 0 0 / 50%); box-shadow: rgba(0 0 0 / 50%) 0em 0em 1em; border: 2px solid rgb(100 100 100 / 25%); border-radius: 6px; width: 3em; height: 1.5em; margin-right: 3em; display: flex; justify-content: center; align-items: center; transition: all 200ms ease-out 0s; position: absolute; z-index: 999;'
 
-                Button$2Container.style = 'background: rgb(0 0 0 / 15%); box-shadow: rgba(0 0 0 / 50%) 0em 0em 1em; border-radius: 6px; cursor: pointer; width: 6.5em; height: 2em; position: absolute; left: 2em; top: 9em; display: flex; justify-content: center; align-items: center;'
+                Button$2Container.style = 'background: rgb(0 0 0 / 10%); box-shadow: rgba(0 0 0 / 50%) 0em 0em 1em; border-radius: 6px; cursor: pointer; width: 6.5em; height: 2em; position: absolute; left: 2em; top: 9em; display: flex; justify-content: center; align-items: center;'
 
                 const StyleElement = document.querySelector('.OffSupplies');
 
@@ -4628,25 +4680,25 @@
 
             function Button$2Toggle() {
 
-                SuppliesToggle = !SuppliesToggle
+               RS_SuppliesToggle  = !RS_SuppliesToggle
 
-                if (SuppliesToggle) {
+                if (RS_SuppliesToggle) {
 
                     OffSupplies();
 
                 }
 
-                if (!SuppliesToggle) {
+                if (!RS_SuppliesToggle) {
 
                     ShowSupplies();
 
                 };
 
-                localStorage.setItem('SuppliesToggle', SuppliesToggle.toString());
+                localStorage.setItem('RS_SuppliesToggle', RS_SuppliesToggle.toString());
 
             };
 
-            if (SuppliesToggle) {
+            if (RS_SuppliesToggle) {
 
                 OffSupplies();
 
@@ -4671,7 +4723,7 @@
 
         function CreateDiv() {
 
-            let MainNotification = document.querySelectorAll('.PrimaryMenuItemComponentStyle-notificationIconNewNews');
+            const MainNotification = document.querySelectorAll('.PrimaryMenuItemComponentStyle-notificationIconNewNews');
 
             for (let i = 0; i < MainNotification.length; i++) {
 
@@ -4679,7 +4731,7 @@
 
             };
 
-            let FooterNotification = document.querySelectorAll('.MainScreenComponentStyle-new.FooterComponentStyle-marginEllips');
+            const FooterNotification = document.querySelectorAll('.MainScreenComponentStyle-new.FooterComponentStyle-marginEllips');
 
             for (let i = 0; i < FooterNotification.length; i++) {
 
