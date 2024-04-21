@@ -812,15 +812,6 @@
             }
         }
 
-        @keyframes animation3 {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
         .StartScreenComponentStyle-mainContainer {
             position: absolute;
             width: 100%;
@@ -1793,6 +1784,26 @@
             0% {
                 opacity: 0;
                 transform: translateY(-10px);
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes translateRight {
+            0% {
+                opacity: 0;
+                transform: translateX(10px);
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes translateLeft {
+            0% {
+                opacity: 0;
+                transform: translateX(-10px);
             }
             100% {
                 opacity: 1;
@@ -4405,6 +4416,50 @@
             border-radius: 0.5vw;
             backdrop-filter: blur(7px);
         }
+
+        .NotificationViewStyle-commonBlockNotification {
+            background: transparent;
+            backdrop-filter: blur(7px);
+
+            right: 2em;
+
+            animation: translateRight 200ms ease-in-out;
+        }
+
+        .NotificationViewStyle-positionBlock {
+            border: unset;
+            box-shadow: 0em 0em 1em rgb(0 0 0 / 50%);
+        }
+
+        .NotificationViewStyle-commonBlockButtonYesNo > div {
+            background: rgb(0 0 0 / 5%);
+            box-shadow: unset;
+            border-radius: 0.5vw;;
+
+            transition: all 200ms ease-in-out 0s
+        }
+
+        .NotificationViewStyle-commonBlockButtonYesNo > div:hover {
+            background: rgb(255 255 255 / 15%);
+            box-shadow: rgb(255 255 255 / 75%) 0em 0em 0em 0.1em;
+        }
+
+        .NotificationViewStyle-progressNotification {
+            background: rgb(0 0 0 / 0%);
+
+            opacity: 0.15;
+            filter: saturate(0) brightness(2);
+            clip-path: inset(0px 0px 0px round 15px);
+        }
+
+        .NotificationViewStyle-positionBlock,
+        .NotificationViewStyle-commonBlockNotification,
+        .NotificationViewStyle-descriptionNotification,
+        .NotificationViewStyle-blockButtonAndTimer,
+        .NotificationViewStyle-progressBarNotification {
+            border-radius: 0.5vw;
+        }
+
         `
 
         function MainLayerFunction(css) {
