@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Retrospective User
+// @name         Retrospective
 // @namespace    http://tampermonkey.net/
 // @version      none
 // @description  none
