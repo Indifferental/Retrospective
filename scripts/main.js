@@ -463,7 +463,7 @@
 
         const BlockContainerChildSpan = document.createElement('span')
               BlockContainerChildSpan.className = 'StartAppend-blockChildSpan'
-              BlockContainerChildSpan.innerHTML = 'Retrospective [26.04.2024 release] by vk.com/drawingwithblood'
+              BlockContainerChildSpan.innerHTML = 'Retrospective [22.05.2024 release] by vk.com/drawingwithblood'
 
               BlockContainerChild.appendChild(BlockContainerChildSpan);
 
@@ -516,8 +516,6 @@
         }, 6000);
 
     };
-
-    EntranceContainer();
 
 
     function PlayButtonImage() {
@@ -1827,14 +1825,17 @@
         }
 
         .TutorialModalComponentStyle-contentWrapper,
-        .ItemDescriptionComponentStyle-commonBlockModal {
+        .ItemDescriptionComponentStyle-commonBlockModal,
+        .SaleByKitStyle-commonBlockModal {
             background: rgb(0 0 0 / 15%);
             backdrop-filter: var(--menu--backdrop--hover);
             border-radius: 0.5vw;
+            border: unset;
 
             position: absolute;
             height: 54em;
             right: unset;
+            left: unset;
 
             animation: translateUp 200ms ease-out;
         }
@@ -3619,6 +3620,19 @@
             animation: blending 175ms ease-out;
         }
 
+        .SaleByKitStyle-commonCard {
+            background: var(--black--transparent--bg);
+            box-shadow: unset;
+            border-radius: 0.5vw;
+
+            transition: var(--menu--transition);
+        }
+
+        .SaleByKitStyle-commonCard:hover {
+            background: var(--white--hover--bg);
+            box-shadow: var(--white--hover--boxshadow);
+        }
+
         .ItemDescriptionComponentStyle-descriptionBlockDevice > .ItemDescriptionComponentStyle-captionDevice > .Common-flexStartAlignStart {
             visibility: hidden;
             position: absolute;
@@ -4520,7 +4534,7 @@
         const MenuSpan = document.createElement('span');
               MenuSpan.className = 'MenuSpan'
               MenuSpan.style = 'color: white; text-shadow: 0 0 4px rgb(0 0 0 / 75%); position: absolute; left: 1em; font-family: RubikMedium; font-size: 2em'
-              MenuSpan.innerHTML = 'Retrospective [26.04.2024 release]'
+              MenuSpan.innerHTML = 'Retrospective [22.05.2024 release]'
 
               MenuHeader.appendChild(MenuSpan);
 
@@ -4981,5 +4995,5 @@
     URLCheck();
 
 
-    console.log(new Date());
-    console.log('Retrospective [26.04.2024 release] loaded successfully.');
+    console.log('Retrospective [26.04.2024] loaded successfully.');
+    console.log('Current time:', new Date());
