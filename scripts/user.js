@@ -7,6 +7,7 @@
 // @match        https://*.tankionline.com/*
 // @icon         https://github.com/Indifferental/Retrospective/blob/main/source/logo.png?raw=true
 // @grant        GM_xmlhttpRequest
+// @run-at       document-start
 // ==/UserScript==
 
     GM_xmlhttpRequest ({
