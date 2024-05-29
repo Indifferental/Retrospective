@@ -1,3 +1,4 @@
+#
 <img src="https://github.com/Indifferental/Retrospective/blob/main/source/logo.png?raw=true" alt="logo" style="width: 150px;"/>
 
 # Описание
@@ -7,8 +8,8 @@
 1. Установите расширение [Tampermonkey](https://www.tampermonkey.net/) на ваш браузер
 2. Создайте новый скрипт и [вставьте этот код](https://github.com/Indifferental/Retrospective/blob/main/scripts/user.js)
 3. В появившемся при заходе в игру окне нажмите «Всегда разрешать»
-#
 
+#
 <img src="https://github.com/Indifferental/Retrospective/blob/main/source/graylogo.webp?raw=true" alt="logo" style="width: 150px;"/>
 
 # Description
