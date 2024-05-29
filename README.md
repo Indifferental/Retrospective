@@ -7,7 +7,6 @@
 1. Установите расширение [Tampermonkey](https://www.tampermonkey.net/) на ваш браузер
 2. Создайте новый скрипт и [вставьте этот код](https://github.com/Indifferental/Retrospective/blob/main/scripts/user.js)
 3. В появившемся при заходе в игру окне нажмите «Всегда разрешать»
-
 #
 
 <img src="https://github.com/Indifferental/Retrospective/blob/main/source/graylogo.webp?raw=true" alt="logo" style="width: 150px;"/>
@@ -19,3 +18,4 @@ Custom theme for Tanki Online. The main menu, the garage, and the original game 
 1. Install the [Tampermonkey](https://www.tampermonkey.net/) extension on your browser
 2. Create new script and [paste this code](https://github.com/Indifferental/Retrospective/blob/main/scripts/user.js) there
 3. In the window that appears when you enter the game, click «Always allow»
+#
