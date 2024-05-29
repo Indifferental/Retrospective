@@ -1,6 +1,5 @@
+Retrospective theme for Tanki Online
 # <img src="https://github.com/Indifferental/Retrospective/blob/main/source/logo.png?raw=true" alt="logo" style="width: 128px;"/>
-
-## Retrospective theme for Tanki Online
 
 | Release      | Supported          |
 | ------------ | ------------------ |
