@@ -1,5 +1,7 @@
 #
+
 <img src="https://github.com/Indifferental/Retrospective/blob/main/source/logo.png?raw=true" alt="logo" style="width: 150px;"/>
+
 #
 
 ## Описание
@@ -11,7 +13,9 @@
 3. В появившемся при заходе в игру окне нажмите «Всегда разрешать»
 
 #
+
 <img src="https://github.com/Indifferental/Retrospective/blob/main/source/graylogo.webp?raw=true" alt="logo" style="width: 150px;"/>
+
 #
 
 ## Description
