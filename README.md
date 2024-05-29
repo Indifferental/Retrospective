@@ -6,5 +6,4 @@
 # Установка
 1. Установите расширение Tampermonkey на ваш браузер
 2. Создайте новый скрипт и [вставьте этот код](https://github.com/Indifferental/Retrospective/blob/main/scripts/user.js)
-[^2]: В следующем окне нажмите «Всегда разрешать»
-  <img src="https://github.com/Indifferental/Retrospective/blob/main/source/helptip.jpg?raw=true" alt="logo" style="width: 150px;"/>
+3. В [следующем окне](https://github.com/Indifferental/Retrospective/blob/main/source/helptip.jpg?raw=true) нажмите «Всегда разрешать»
