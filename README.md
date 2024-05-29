@@ -5,4 +5,4 @@
 
 # Установка
 1. Установите расширение Tampermonkey на ваш браузер
-2. Создайте новый скрипт и вставьте [код]([[https://pages.github.com/](https://github.com/Indifferental/Retrospective/blob/main/scripts/user.js)]
+2. Создайте новый скрипт и вставьте ([[код](https://github.com/Indifferental/Retrospective/blob/main/scripts/user.js)]
