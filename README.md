@@ -8,8 +8,6 @@
 2. Создайте новый скрипт и [вставьте этот код](https://github.com/Indifferental/Retrospective/blob/main/scripts/user.js)
 3. В появившемся при заходе в игру окне нажмите «Всегда разрешать»
 
-#
-
 # Description
 Custom theme for Tanki Online. The main menu, the garage, and the original game design were completely redesigned; the tab was expanded and supplemented with a permanent display of resistances. At the moment, the function of changing different backgrounds in the `F9` menu and visually hiding supplies in the garage has been implemented.
 
