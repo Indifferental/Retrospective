@@ -15,4 +15,3 @@ Custom theme for Tanki Online. The main menu, the garage, and the original game 
 1. Install the [Tampermonkey](https://www.tampermonkey.net/) extension on your browser
 2. Create new script and [paste this code](https://github.com/Indifferental/Retrospective/blob/main/scripts/user.js) there
 3. In the window that appears when you enter the game, click «Always allow»
-#
