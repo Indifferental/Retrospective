@@ -6,4 +6,4 @@
 # Установка
 1. Установите расширение [Tampermonkey](https://www.tampermonkey.net/) на ваш браузер
 2. Создайте новый скрипт и [вставьте этот код](https://github.com/Indifferental/Retrospective/blob/main/scripts/user.js)
-3. В [следующем окне](https://github.com/Indifferental/Retrospective/blob/main/source/helptip.jpg?raw=true) нажмите «Всегда разрешать»
+3. В появившемся окне при заходе в игру нажмите «Всегда разрешать»
