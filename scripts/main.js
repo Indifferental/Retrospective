@@ -482,7 +482,7 @@
             --menu-background: rgb(0 0 0 / 5%);
             --hover-background: rgb(255 255 255 / 15%);
 
-            --menu-box-shadow: 0em 0em 0px 2px rgba(255 255 255 / 2.5%), inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%);
+            --menu-box-shadow: 0em 0em 0px 1.5px rgba(255 255 255 / 2.5%), inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%);
             --hover-box-shadow: white 0em 0em 0em 0.1em;
 
             --menu-backdrop-filter: blur(4px);
