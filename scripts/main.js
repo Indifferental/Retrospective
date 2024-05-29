@@ -488,7 +488,7 @@
             --menu-backdrop-filter: blur(4px);
             --hover-backdrop-filter: blur(8px);
 
-            --menu-transition: all 175ms ease-out;
+            --menu-transition: all 150ms ease-out;
         }
 
         .Common-entranceGradient-entranceLogo {
@@ -522,7 +522,7 @@
             z-index: -1;
             pointer-events: none;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .StartAppend-block {
@@ -614,7 +614,7 @@
             background-size: cover;
             background-position: center;
 
-            transition: all 150ms ease-in-out;
+            transition: all 150ms ease-out;
             position: absolute;
         }
 
@@ -940,7 +940,7 @@
         }
 
         .BreadcrumbsComponentStyle-rootTitle {
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .BreadcrumbsComponentStyle-rootTitle > div {
@@ -1315,7 +1315,7 @@
             border: unset;
             border-radius: 0.35vw;
 
-            animation: blending 125ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ContextMenuStyle-menuItemRank {
@@ -1504,7 +1504,7 @@
 
             transition: var(--menu-transition);
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .Common-activeMenu {
@@ -1618,7 +1618,7 @@
             background: transparent;
             backdrop-filter: var(--menu-backdrop-filter);
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ChatComponentStyle-chatWindow {
@@ -1837,7 +1837,7 @@
             top: 9em;
             left: 8em;
 
-            animation: blending 175ms ease-in-out;
+            animation: blending 150ms ease-out;
         }
 
         .InvitationWindowsComponentStyle-buttonsContainer > .InvitationWindowsComponentStyle-buttons > .InvitationWindowsComponentStyle-inviteButton {
@@ -1848,7 +1848,7 @@
 
             transition: var(--menu-transition);
 
-            animation: blending 175ms ease-in-out;
+            animation: blending 150ms ease-out;
         }
 
         .InvitationWindowsComponentStyle-buttonsContainer > .InvitationWindowsComponentStyle-buttons > .InvitationWindowsComponentStyle-inviteButton:hover {
@@ -2223,7 +2223,7 @@
             margin-bottom: 0.4em;
             opacity: 1;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ClanCommonStyle-information {
@@ -2256,7 +2256,7 @@
 
             transition: var(--menu-transition);
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .FriendListComponentStyle-containerForm > .FriendListComponentStyle-buttonCloseAddFriends:hover {
@@ -2274,7 +2274,7 @@
             cursor: pointer;
             height: 2em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ClanCommonStyle-tableInvite thead tr th:hover {
@@ -2293,7 +2293,7 @@
             cursor: pointer;
             height: 2em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .TableComponentStyle-table thead tr t:hover,
@@ -2345,7 +2345,7 @@
             margin: 6px;
             justify-content: center;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .FriendListComponentStyle-blockList:hover {
@@ -2364,7 +2364,7 @@
             height: 3em;
             width: 20em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .SearchInputComponentStyle-searchInput > input {
@@ -2404,7 +2404,7 @@
             margin-left: unset;
             margin-right: 0.7em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .FriendListComponentStyle-containerButtonFriends:hover {
@@ -2429,7 +2429,7 @@
             transition: all 150ms ease-in-out 0s;
             height: 3em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .FriendRequestComponentStyle-buttonDeclineAll:hover {
@@ -2458,6 +2458,7 @@
         .PrimaryMenuItemComponentStyle-itemName {
             text-shadow: 0 0 4px rgb(0 0 0 / 25%);
 
+            transition: var(--menu-transition);
             margin-left: unset;
             position: absolute;
         }
@@ -2477,7 +2478,7 @@
             width: auto;
             margin-right: 11.25em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .FriendListComponentStyle-blockList > .FriendListComponentStyle-containerNickName > div {
@@ -2522,7 +2523,7 @@
             transition: var(--menu-transition);
             margin: 6px;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .InvitationWindowsComponentStyle-usersScroll > .Common-flexStartAlignStretch > .Common-whiteSpaceNoWrap:hover {
@@ -2555,7 +2556,7 @@
         .InvitationWindowsComponentStyle-typeListContainer > .DropDownStyle-dropdownRoot > .DropDownStyle-dropdownControl {
             backdrop-filter: var(--menu-backdrop-filter);
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .InvitationWindowsComponentStyle-header {
@@ -2713,7 +2714,7 @@
             height: 5em;
             justify-content: center;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .GarageMainScreenStyle-blockParameters > div > .TankParametersStyle-leftParamsContainer:hover {
@@ -2797,7 +2798,7 @@
             position: absolute;
             z-index: -1;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .GarageMainScreenStyle-blockParameters > div > .Common-flexStartAlignStartColumn > div {
@@ -2815,13 +2816,15 @@
             visibility: visible;
             margin-right: unset;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .GarageMainScreenStyle-blockParameters > div > .Common-flexStartAlignStartColumn > div > .MountedItemsStyle-resistanceContainer > .MountedItemsStyle-commonForCellResistenceName {
             background: rgb(0 0 0 / 0%);
             border-radius: 0.5vw;
             width: 5em;
+
+            transition: var(--menu-transition);
         }
 
         .GarageMainScreenStyle-blockParameters > div > .Common-flexStartAlignStartColumn > div > .MountedItemsStyle-resistanceContainer > .MountedItemsStyle-commonForCellResistenceName:hover {
@@ -2835,10 +2838,6 @@
 
         .GarageMainScreenStyle-blockParameters > div {
             align-items: center;
-        }
-
-        .MountedItemsStyle-commonForCellResistenceName {
-            transition: all 150ms ease-in-out 0s;
         }
 
         .MountedItemsStyle-containerBlockGarage {
@@ -2857,7 +2856,7 @@
             margin-bottom: 1.5em;
             margin-top: unset;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .MountedItemsStyle-containerBlockGarage > div.MountedItemsStyle-commonBlockDrone {
@@ -2875,7 +2874,7 @@
             padding-bottom: 1em;
             margin-right: 96.5em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .MountedItemsStyle-containerBlockGarage > div.MountedItemsStyle-commonBlockPaint {
@@ -2893,7 +2892,7 @@
             padding-bottom: 1em;
             margin-left: 96.5em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .MountedItemsStyle-containerBlockGarage > div:hover {
@@ -2917,7 +2916,7 @@
             height: 50.5em;
             margin-left: 1em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .GarageCommonStyle-subMenu > .Common-flexSpaceBetweenAlignStartColumn:hover {
@@ -2936,7 +2935,7 @@
             transition: var(--menu-transition);
             opacity: 1;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .SkinsComponentStyle-styleColumn > .SkinCellStyle-widthHeight:hover {
@@ -2981,7 +2980,7 @@
             width: 20em;
             height: 5em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .SuppliesComponentStyle-screenShotButtonOpen:hover {
@@ -3021,7 +3020,7 @@
             margin-right: 0.5em;
             margin-left: 0.5em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .SuppliesComponentStyle-cellAdd:hover {
@@ -3066,7 +3065,7 @@
             height: 2.5em;
             z-index: 20;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ProBattlesComponentStyle-chatBlock:hover,
@@ -3093,7 +3092,7 @@
             transition: var(--menu-transition);
             margin-top: 0.15em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .UsersTableStyle-rowBattle:hover {
@@ -3111,7 +3110,7 @@
             transition: var(--menu-transition);
             margin-top: 0.15em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .GarageTurretsAlterationsComponentStyle-mountStandardButton > .AlterationButtonStyle-buyButton > .Common-flexStartAlignStart > .HotKey-commonBlockForHotKey,
@@ -3136,7 +3135,7 @@
 
             transition: var(--menu-transition);
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .UserProgressComponentStyle-progressItemCompleted:hover {
@@ -3153,7 +3152,7 @@
 
             transition: var(--menu-transition);
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .UserProgressComponentStyle-progressItemUncompleted:hover {
@@ -3175,7 +3174,7 @@
             height: 2em;
             min-height: 2em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .BattleInfoComponentStyle-invite > .Common-flexStartAlignCenter {
@@ -3234,7 +3233,7 @@
 
             transition: var(--menu-transition);
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .BattleModesComponentStyle-cardContentUp > .Common-flexSpaceBetweenAlignCenterColumn:hover,
@@ -3284,7 +3283,7 @@
 
             transition: var(--menu-transition);
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ClanInfoComponentStyle-messageClan {
@@ -3295,7 +3294,7 @@
 
             transition: var(--menu-transition);
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ClanHeaderComponentStyle-blockInform:hover,
@@ -3314,7 +3313,7 @@
             margin-top: unset;
             margin-bottom: 1em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ClanProfileEditComponentStyle-clanDescriptionEdit h2:nth-child(1) {
@@ -3348,7 +3347,7 @@
 
             transition: var(--menu-transition);
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ClanInfoComponentStyle-buttonEditProfile:hover,
@@ -3382,7 +3381,7 @@
 
             transition: var(--menu-transition);
 
-            animation: blending 175ms ease-in-out;
+            animation: blending 150ms ease-out;
         }
 
         .SettingsMenuComponentStyle-menuItemOptions {
@@ -3395,7 +3394,7 @@
 
             transition: var(--menu-transition);
 
-            animation: blending 175ms ease-in-out;
+            animation: blending 150ms ease-out;
         }
 
         .SettingsMenuComponentStyle-menuItemOptions:hover {
@@ -3464,7 +3463,7 @@
 
         .ContainersComponentStyle-keyBlock,
         .ContainersComponentStyle-containers {
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ContainersComponentStyle-leftPane,
@@ -3482,7 +3481,7 @@
 
             transition: var(--menu-transition);
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ContainersComponentStyle-possibleRewardsBlock {
@@ -3520,7 +3519,7 @@
             transition: var(--menu-transition);
             z-index: 15;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .SuperMissionComponentStyle-gradientBackground {
@@ -3609,7 +3608,7 @@
         .TableMainQuestComponentStyle-cardRewardGivenTable {
             box-shadow: unset;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .TableMainQuestComponentStyle-rewardsContainerTable > .Common-flexCenterAlignCenterColumn,
@@ -3649,7 +3648,7 @@
             height: 2.5em;
             left: 8em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ProBattlesComponentStyle-commonBlockHotkeyV > .Common-flexCenterAlignCenterColumn > .Common-maskImageContain {
@@ -3710,7 +3709,7 @@
         .GarageProtectionsComponentStyle-blockParametersProtection > div {
             transition: var(--menu-transition);
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .GarageProtectionsComponentStyle-blockParametersProtection > .Common-flexStartAlignStart {
@@ -3726,7 +3725,7 @@
             transition: var(--menu-transition);
             justify-content: flex-start;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .SaleByKitStyle-commonCard {
@@ -3750,15 +3749,16 @@
         .ItemDescriptionComponentStyle-descriptionBlockDevice > .ItemDescriptionComponentStyle-nameItem {
             margin-left: 0.8em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
-        .DeviceButtonComponentStyle-blockAlterations {
+        .GarageCommonStyle-animatedBlurredLeftBlock > div > .DeviceButtonComponentStyle-blockAlterations {
             position: absolute;
         }
 
-        .DeviceButtonComponentStyle-blockAlterations h2,
-        .DeviceButtonComponentStyle-blockAlterations span {
+        .GarageCommonStyle-animatedBlurredLeftBlock > div > .DeviceButtonComponentStyle-blockAlterations h2,
+        .GarageCommonStyle-animatedBlurredLeftBlock > div > .DeviceButtonComponentStyle-blockAlterations span,
+        .ContainersComponentStyle-possibleRewardsBlock > .DeviceButtonComponentStyle-blockAlterations > .ItemDescriptionComponentStyle-linkToFullDescription {
             visibility: hidden;
         }
 
@@ -3779,7 +3779,7 @@
             transition: var(--menu-transition);
             height: 5em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ItemDescriptionComponentStyle-descriptionBlockDevice > .ItemDescriptionComponentStyle-captionDevice:hover,
@@ -3833,11 +3833,11 @@
 
             transition: var(--menu-transition);
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .TanksPartComponentStyle-tankPartUpgrades > .Common-displayFlexColumn.GarageCommonStyle-animatedBlurredRightBlock {
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ListItemsComponentStyle-itemsContainer > .Common-flexSpaceBetweenAlignCenterColumn > .Common-itemStyle {
@@ -3848,7 +3848,7 @@
 
             transition: var(--menu-transition);
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ListItemsComponentStyle-itemsContainer > .Common-flexSpaceBetweenAlignCenterColumn > .Common-itemStyle:hover {
@@ -3871,7 +3871,7 @@
         .TankPreviewComponentStyle-visible,
         .GarageSuppliesPreviewComponentStyle-view {
             transition: unset;
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .TierItemComponentStyle-tierCommon {
@@ -3994,7 +3994,7 @@
             margin-top: 0.5em;
             margin-left: 1em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ProBattlesComponentStyle-battlesContainer > .ProBattlesComponentStyle-table > .TableComponentStyle-tBody > tr.Common-flexWrapNowrap.modeLimitIcon:hover {
@@ -4033,7 +4033,7 @@
             justify-content: space-between;
             cursor: pointer;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ProBattlesComponentStyle-battlesContainer > .ProBattlesComponentStyle-table > .Common-flexStartAlignCenter > tr > th:hover {
@@ -4075,7 +4075,7 @@
             overflow: unset;
             justify-content: center;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ScrollingCardsComponentStyle-scrollCard:hover {
@@ -4139,7 +4139,7 @@
         }
 
         .ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn > .Common-flexCenterAlignCenter {
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn > .Common-flexCenterAlignCenter p {
@@ -4155,7 +4155,7 @@
         .ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn > .BattleInfoComponentStyle-blockCard {
             margin-top: 1em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ProBattlesComponentStyle-mainContainer > .Common-flexStartAlignCenterColumn > .BattleInfoComponentStyle-blockCard > .Common-backgroundImageCover {
@@ -4180,7 +4180,7 @@
             margin-left: 0.5em;
             margin-top: 0.75em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ProBattlesComponentStyle-createBattleButton {
@@ -4195,7 +4195,7 @@
             left: 0.5em;
             bottom: 0.75em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .ProBattlesComponentStyle-createBattleButton:hover {
@@ -4255,7 +4255,7 @@
             width: 15em;
             height: 5em;
 
-            animation: blending 175ms ease-out;
+            animation: blending 150ms ease-out;
         }
 
         .Common-flexCenterAlignCenter.JoinToBattleComponentStyle-newButtonJoinA.JoinToBattleComponentStyle-buttonJoin:hover {
@@ -4299,7 +4299,7 @@
             backdrop-filter: var(--menu-backdrop-filter);
             border-radius: 0.5vw;
 
-            animation: blending 175ms ease-in-out;
+            animation: blending 150ms ease-out;
         }
 
         BattleTabStatisticComponentStyle-dmTableContainer table tbody tr {
