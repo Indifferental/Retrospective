@@ -367,7 +367,7 @@
 
         const BlockContainerChildSpan = document.createElement('span')
               BlockContainerChildSpan.className = 'StartAppend-blockChildSpan'
-              BlockContainerChildSpan.innerHTML = 'Retrospective [29.05.2024 release] by vk.com/drawingwithblood'
+              BlockContainerChildSpan.innerHTML = 'Retrospective [29.05.2024 release] by vk.com/legionlegionlegionlegionlegion'
 
               BlockContainerChild.appendChild(BlockContainerChildSpan);
 
