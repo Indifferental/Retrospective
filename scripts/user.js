@@ -5,7 +5,7 @@
 // @description  none
 // @author       https://vk.com/legionlegionlegionlegionlegion
 // @match        https://*.tankionline.com/*
-// @icon         https://github.com/Indifferental/Retrospective/blob/main/source/logo.png?raw=true
+// @icon         https://raw.githubusercontent.com/Indifferental/Retrospective/main/assets/logo.webp
 // @grant        GM_xmlhttpRequest
 // @run-at       document-start
 // ==/UserScript==
