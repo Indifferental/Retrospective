@@ -1,7 +1,5 @@
 #
 <img src="https://github.com/Indifferental/Retrospective/blob/main/source/logo.png?raw=true" alt="logo" style="width: 150px;"/>
-
-### [RU]
 #
 
 ## Описание
@@ -14,8 +12,6 @@
 
 #
 <img src="https://github.com/Indifferental/Retrospective/blob/main/source/graylogo.webp?raw=true" alt="logo" style="width: 150px;"/>
-
-### [EN]
 #
 
 ## Description
