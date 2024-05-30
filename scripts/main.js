@@ -804,9 +804,9 @@
         }
 
         .BattlePickComponentStyle-cardImg,
-        .BattlePickComponentStyle-cardImgEvent {
+        .BattlePickComponentStyle-cardImgEvent,
+        .BattlePickComponentStyle-disableCardImgEvent {
             box-shadow: 0em 0em 0px 2px rgba(255 255 255 / 10%), inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%);
-            background-blend-mode: color-dodge;
 
             position: relative;
             width: 100%;
@@ -840,7 +840,8 @@
             transition: var(--menu-transition);
         }
 
-        .BattlePickComponentStyle-cardContentRight > div:nth-child(2) > .BattlePickComponentStyle-cardImgEvent {
+        .BattlePickComponentStyle-cardContentRight > div:nth-child(2) > .BattlePickComponentStyle-cardImgEvent,
+        .BattlePickComponentStyle-cardContentRight > div:nth-child(2) > .BattlePickComponentStyle-disableCardImgEvent {
             background-size: 100%;
             border-radius: 0.5em;
 
@@ -853,14 +854,16 @@
 
         .BattlePickComponentStyle-cardContentLeft > div:hover > .Common-backgroundImageCover,
         .BattlePickComponentStyle-cardContentRight > div:hover > .Common-backgroundImageCover,
-        .BattlePickComponentStyle-cardContentRight > div:hover > .BattlePickComponentStyle-cardImgEvent {
+        .BattlePickComponentStyle-cardContentRight > div:hover > .BattlePickComponentStyle-cardImgEvent,
+        .BattlePickComponentStyle-cardContentRight > div:hover > .BattlePickComponentStyle-disableCardImgEvent {
             box-shadow: var(--hover-box-shadow);
 
             background-size: 107%;
         }
 
         .cardImgEvents:hover .BattlePickComponentStyle-cardImg,
-        .cardImgEvents:hover .BattlePickComponentStyle-cardImgEvent {
+        .cardImgEvents:hover .BattlePickComponentStyle-cardImgEvent,
+        .cardImgEvents:hover .BattlePickComponentStyle-disableCardImgEvent {
             transform: scale(1.02, 1.02);
         }
 
@@ -4720,6 +4723,74 @@
 
         .MatchmakingWaitComponentStyle-container > div {
             background-image: unset;
+        }
+
+        .RoundBigButtonComponentStyle-outerCircle,
+        .RoundBigButtonComponentStyle-innerCircle > div {
+            transition: var(--menu-transition);
+        }
+
+        .RoundBigButtonComponentStyle-middleCircle {
+            visibility: hidden;
+            transition: var(--menu-transition);
+        }
+
+        .RoundBigButtonComponentStyle-innerCircle {
+            backdrop-filter: var(--menu-backdrop-filter);
+
+            visibility: visible;
+            transition: var(--menu-transition);
+        }
+
+        .HeaderComponentStyle-messageContainer {
+            background: var(--menu-background);
+            box-shadow: var(--menu-box-shadow);
+            backdrop-filter: var(--menu-backdrop-filter);
+            border: unset;
+            border-radius: 0.5vw;
+
+            animation: blending 150ms ease-out;
+        }
+
+        .HeaderComponentStyle-messageContainer > span {
+            color: white;
+        }
+
+        .PaintsCollectionComponentStyle-commonBlockPaint > .Common-flexCenterAlignCenter {
+            box-shadow: var(--menu-box-shadow);
+            backdrop-filter: var(--menu-backdrop-filter);
+            border-radius: 0.5vw;
+
+            transition: var(--menu-transition);
+            animation: blending 150ms ease-out;
+        }
+
+        .PaintsCollectionComponentStyle-commonBlockPaint > .Common-flexCenterAlignCenter:hover {
+            background: rgb(255 255 255 / 15%);
+            box-shadow: var(--hover-box-shadow);
+            backdrop-filter: var(--hover-backdrop-filter);
+            border-radius: 0.5vw;
+        }
+
+        .PaintsCollectionComponentStyle-commonBlockFOrInfoAndCaptionCategory > .PaintsCollectionComponentStyle-captionPaint > .Common-backgroundImageContain {
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAICAYAAADuv08kAAAAfElEQVQoka2SMQqEUAxER/vFC6y1Z18RrLfwRir4L/AsjCDxqyAZmCLMYwgkAgTUQAckcw80lnmHsHs4cdZsmS8KYWUbXal1ZWFsASRJH+WVJFVuDmHLi2AXD/lrtpQ03AB/N8exbF82Z+4wAl93tzD2+IEtsJh/maJQdgX95B/wTxc6aQAAAABJRU5ErkJggg==);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 60%;
+            box-shadow: var(--menu-box-shadow);
+            backdrop-filter: var(--menu-backdrop-filter);
+            border-radius: 0.5vw;
+
+            transition: var(--menu-transition);
+            animation: blending 150ms ease-out;
+        }
+
+        .PaintsCollectionComponentStyle-commonBlockFOrInfoAndCaptionCategory > .PaintsCollectionComponentStyle-captionPaint > .Common-backgroundImageContain:hover {
+            background-color: rgb(255 255 255 / 15%);
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAICAYAAADuv08kAAAAfElEQVQoka2SMQqEUAxER/vFC6y1Z18RrLfwRir4L/AsjCDxqyAZmCLMYwgkAgTUQAckcw80lnmHsHs4cdZsmS8KYWUbXal1ZWFsASRJH+WVJFVuDmHLi2AXD/lrtpQ03AB/N8exbF82Z+4wAl93tzD2+IEtsJh/maJQdgX95B/wTxc6aQAAAABJRU5ErkJggg==);
+            box-shadow: var(--hover-box-shadow);
+            backdrop-filter: var(--hover-backdrop-filter);
+            border-radius: 0.5vw;
         }
 
         `
