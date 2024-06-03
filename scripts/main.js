@@ -5,7 +5,7 @@
             const MainHeader = document.getElementsByClassName('UserInfoContainerStyle-blockForIconTankiOnline')[0];
 
             const Hyperlink = document.createElement('a');
-                  Hyperlink.setAttribute('href', 'https://vk.com/legionlegionlegionlegionlegion')
+                  Hyperlink.setAttribute('href', 'https://github.com/Indifferental/Retrospective')
                   Hyperlink.className = 'UserInfoContainerStyle-hyperlink'
                   Hyperlink.target = '_blank'
 
@@ -367,7 +367,7 @@
 
         const BlockContainerChildSpan = document.createElement('span')
               BlockContainerChildSpan.className = 'StartAppend-blockChildSpan'
-              BlockContainerChildSpan.innerHTML = 'Retrospective [29.05.2024 release] by vk.com/legionlegionlegionlegionlegion'
+              BlockContainerChildSpan.innerHTML = 'Retrospective [03.06.2024 release] by https://vk.com/drawingwithblood'
 
               BlockContainerChild.appendChild(BlockContainerChildSpan);
 
@@ -481,9 +481,6 @@
         body {
             --menu-background: rgb(0 0 0 / 5%);
             --hover-background: rgb(255 255 255 / 15%);
-
-            --menu-box-shadow: 0em 0em 0px 1.5px rgba(255 255 255 / 2.5%), inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%);
-            --hover-box-shadow: white 0em 0em 0em 0.1em;
 
             --menu-backdrop-filter: blur(4px);
             --hover-backdrop-filter: blur(8px);
@@ -806,7 +803,7 @@
         .BattlePickComponentStyle-cardImg,
         .BattlePickComponentStyle-cardImgEvent,
         .BattlePickComponentStyle-disableCardImgEvent {
-            box-shadow: 0em 0em 0px 2px rgba(255 255 255 / 10%), inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%);
+            box-shadow: var(--menu-box-shadow);
 
             position: relative;
             width: 100%;
@@ -881,7 +878,7 @@
         .BattlePickComponentStyle-cardContentLeft > div,
         .BattlePickComponentStyle-cardContentRight > div {
             background: transparent;
-            box-shadow: 0em 0em 0px 2px rgba(255 255 255 / 10%), inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%);
+            box-shadow: var(--menu-box-shadow);
 
             width: 31em;
             height: 15em;
@@ -1198,10 +1195,10 @@
         .MainScreenComponentStyle-gradientBlock {
             background: linear-gradient(0deg, black 0%, transparent 100%);
 
-            opacity: 0.25;
+            opacity: 0.45;
             top: unset;
             width: 100%;
-            height: 50%;
+            height: 25%;
         }
 
         .MainScreenComponentStyle-containerForMenuGradient > .Common-displayFlex {
@@ -1898,8 +1895,6 @@
         }
 
         .AnnouncementHomeScreenComponentStyle-mainBackGroundContainer {
-            backdrop-filter: var(--menu-backdrop-filter);
-
             width: 20em;
             height: 10em;
         }
@@ -1940,8 +1935,8 @@
             box-shadow: var(--menu-box-shadow);
 
             transition: var(--menu-transition);
-            width: 95%;
-            height: 89%;
+            width: 97%;
+            height: 94%;
         }
 
         .AnnouncementHomeScreenComponentStyle-mainContainer:hover > .AnnouncementHomeScreenComponentStyle-mainBackGroundContainer > .AnnouncementHomeScreenComponentStyle-mainClickContainer > .AnnouncementHomeScreenComponentStyle-announceDescriptionContainer {
@@ -4070,8 +4065,8 @@
 
         .ScrollingCardsComponentStyle-scrollCard {
             background: transparent;
+            box-shadow: var(--menu-box-shadow);
             backdrop-filter: var(--menu-backdrop-filter);
-            box-shadow: 0em 0em 0px 2px rgba(255 255 255 / 10%), inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%);
             border-radius: 0.5vw;
 
             transition: var(--menu-transition);
@@ -4104,7 +4099,7 @@
         }
 
         .ScrollingCardsComponentStyle-scrollCard > .Common-backgroundImageCover {
-            box-shadow: 0em 0em 0px 2px rgba(255 255 255 / 10%), inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%);
+            box-shadow: var(--menu-box-shadow);
             border-radius: 0.5vw;
             background-blend-mode: color-dodge;
             background-size: 100%;
@@ -4662,7 +4657,7 @@
         }
 
         .ShopSelectedSectionComponentStyle-commonCell {
-            box-shadow: 0em 0em 0px 2px rgba(255 255 255 / 10%), inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%);
+            box-shadow: var(--menu-box-shadow);
             backdrop-filter: var(--menu-backdrop-filter);
 
             transition: var(--menu-transition);
@@ -4674,7 +4669,7 @@
 
         .ShopSelectedSectionComponentStyle-cell,
         .ShopSelectedSectionComponentStyle-limitedOffersCommon {
-            box-shadow: 0em 0em 0px 2px rgba(255 255 255 / 10%), inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%);
+            box-shadow: var(--menu-box-shadow);
 
             transition: var(--menu-transition);
         }
@@ -4853,7 +4848,7 @@
         const MenuSpan = document.createElement('span');
               MenuSpan.className = 'MenuSpan'
               MenuSpan.style = 'color: white; text-shadow: 0 0 4px rgb(0 0 0 / 25%); position: absolute; left: 1em; font-family: RubikMedium; font-size: 2em'
-              MenuSpan.innerHTML = 'Retrospective [29.05.2024 release]'
+              MenuSpan.innerHTML = 'Retrospective [03.06.2024 release]'
 
               MenuHeader.appendChild(MenuSpan);
 
@@ -5286,7 +5281,7 @@
     PrimaryNotification();
 
 
-    function URLCheck() {
+    function DynamicCheck() {
 
         if (window.location.href == 'https://tankionline.com/play/' || 'https://*.test-eu.tankionline.com/browser-public/index.html?*') {
 
@@ -5295,9 +5290,21 @@
 
         };
 
+        if (window.screen.width == '2560') {
+
+            document.body.style = '--menu-box-shadow: 0em 0em 0em 2px rgba(255 255 255 / 2.5%), inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%); --hover-box-shadow: 0em 0em 0em 2px white, inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%);'
+
+        };
+
+        if (window.screen.width != '2560') {
+
+            document.body.style = '--menu-box-shadow: 0em 0em 0em 1.5px rgba(255 255 255 / 2.5%), inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%); --hover-box-shadow: 0em 0em 0em 1.5px white, inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%)'
+
+        };
+
     };
 
-    URLCheck();
+    DynamicCheck();
 
 
     function MatchmakingWaiting() {
