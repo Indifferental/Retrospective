@@ -452,7 +452,7 @@
             .LoadingAnimation-innerRing {
                 background: transparent;
                 transform: rotate(90deg);
-                border: 8px solid;
+                border: var(--ringBorder);
                 border-color: white transparent;
                 border-radius: 50%;
     
@@ -466,7 +466,7 @@
     
             .LoadingAnimation-outerRing {
                 background: transparent;
-                border: 8px solid;
+                border: var(--ringBorder);
                 border-color: white transparent;
                 border-radius: 50%;
     
@@ -4220,7 +4220,7 @@
             }
     
             .BattleTabStatisticComponentStyle-containerInsideTeams {
-                background: linear-gradient(135deg, transparent, rgb(0 0 0 / 10%));
+                background: linear-gradient(135deg, rgb(0 0 0 / 10%), rgb(0 0 0 / 20%));
                 box-shadow: 0em 0em 1.5em 0.1em rgba(0 0 0 / 25%);
                 outline: 2px solid rgb(255 255 255 / 5%);
                 backdrop-filter: blur(5px);
@@ -4244,7 +4244,7 @@
             .BattleTabStatisticComponentStyle-redTeamTableContainer > table > tbody > .BattleTabStatisticComponentStyle-rowBackGround:hover,
             .BattleTabStatisticComponentStyle-selectedRowBackGround,
             .BattleTabStatisticComponentStyle-selectedRowBackGround:hover {
-                box-shadow: rgb(0 0 0 / 10%) 0em 0em 0.25em 0.1em;
+                box-shadow: rgb(0 0 0 / 7.5%) 0em 0em 0.25em 0.1em;
             }
     
             .BattleTabStatisticComponentStyle-blueTeamTableContainer > table > tbody > .BattleTabStatisticComponentStyle-rowBackGround,
@@ -4511,6 +4511,25 @@
     
             .wrapper {
                 align-items: center;
+            }
+    
+            .BattleChatComponentStyle-inputContainerAll,
+            .BattleChatComponentStyle-inputContainerAllies {
+                background: rgb(0 0 0 / 25%);
+                box-shadow: 0em 0em 1.5em 0.1em rgb(0 0 0 / 25%);
+                border: unset;
+                border-radius: 0.5em;
+                backdrop-filter: blur(5px);
+    
+                height: 4.25em;
+                animation: blending 150ms ease-out;
+            }
+    
+            .BattleChatComponentStyle-container > .Common-flexStartAlignEnd > .Common-flexCenterAlignCenter {
+                border-radius: 0.5em;
+                backdrop-filter: blur(5px);
+    
+                animation: blending 150ms ease-out;
             }
     
             .MatchmakingWaitComponentStyle-container {
@@ -6564,13 +6583,13 @@
     
             if (window.screen.width == '2560') {
     
-                document.body.style = '--menu-box-shadow: 0em 0em 0em 2px rgba(255 255 255 / 2.5%), inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%); --hover-box-shadow: 0em 0em 0em 2px white, inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%);'
+                document.body.style = '--ringBorder: 8px solid white; --menu-box-shadow: 0em 0em 0em 2px rgba(255 255 255 / 2.5%), inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%); --hover-box-shadow: 0em 0em 0em 2px white, inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%);'
     
             };
     
             if (window.screen.width != '2560') {
     
-                document.body.style = '--menu-box-shadow: 0em 0em 0em 1.5px rgba(255 255 255 / 2.5%), inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%); --hover-box-shadow: 0em 0em 0em 1.5px white, inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%)'
+                document.body.style = '--ringBorder: 4px solid white; --menu-box-shadow: 0em 0em 0em 1.5px rgba(255 255 255 / 2.5%), inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%); --hover-box-shadow: 0em 0em 0em 1.5px white, inset 0em 0em 0.5em 0em rgb(0 0 0 / 5%)'
     
             };
     
