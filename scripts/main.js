@@ -5468,25 +5468,25 @@
 
         const MenuSpan = document.createElement('span');
               MenuSpan.className = 'MenuSpan'
-              MenuSpan.innerHTML = 'Retrospective [15.06.2024 release]'
+              MenuSpan.innerHTML = 'Retrospective [16.06.2024 release]'
 
               MenuPage.appendChild(MenuSpan);
 
         const MenuSpanChng1 = document.createElement('span');
               MenuSpanChng1.className = 'MenuSpanChng1'
-              MenuSpanChng1.innerHTML = '• Added a photo to tab`s background;'
+              MenuSpanChng1.innerHTML = 'Added Alfa and Bravo Teams clicker;'
 
               MenuPage.appendChild(MenuSpanChng1);
 
         const MenuSpanChng2 = document.createElement('span');
               MenuSpanChng2.className = 'MenuSpanChng2'
-              MenuSpanChng2.innerHTML = '• Soon will be added alfa and bravo teams clicker;'
+              MenuSpanChng2.innerHTML = '• If you have questions, write discord: eternalrestawaits'
 
               MenuPage.appendChild(MenuSpanChng2);
 
         const MenuSpanChng3 = document.createElement('span');
               MenuSpanChng3.className = 'MenuSpanChng3'
-              MenuSpanChng3.innerHTML = '• If you have questions, write discord: eternalrestawaits'
+              MenuSpanChng3.innerHTML = ''
 
               MenuPage.appendChild(MenuSpanChng3);
 
@@ -6894,7 +6894,7 @@
 
         const BlockContainerChildSpan = document.createElement('span')
               BlockContainerChildSpan.className = 'StartAppend-blockChildSpan'
-              BlockContainerChildSpan.innerHTML = '> Retrospective [15.06.2024 release] // Press F9 to open the menu and view the changelog.'
+              BlockContainerChildSpan.innerHTML = '> Retrospective [16.06.2024 release] // Press F9 to open the menu and view the changelog.'
 
               BlockContainerChild.appendChild(BlockContainerChildSpan);
 
