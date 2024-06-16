@@ -16,7 +16,7 @@
     
                         Child.forEach(el => {
     
-                        if (el.innerHTML.trim() == '[Nvm] psycho.kid') {
+                        if (el.innerHTML.trim() == '[Can] Katana') {
     
                             let elll = el.parentElement.parentElement.previousSibling
                             el.style = 'color: #f984e5'
