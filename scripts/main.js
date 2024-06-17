@@ -6653,55 +6653,49 @@
 
                 function alfaRepeat() {
 
-                    let disableCheck = document.querySelector('.ButtonComponentStyle-disabled');
+                    this.alfaTimeout = setTimeout(function() {
 
-                    if (!disableCheck) {
+                        document.querySelector(".Common-flexCenterAlignCenter > .Common-flexCenterAlignCenter.JoinToBattleComponentStyle-newButtonJoinA.JoinToBattleComponentStyle-buttonJoin")?.click();
 
-                        this.alfaTimeout = setTimeout(function() {
+                        document.body.dispatchEvent(new KeyboardEvent("keydown", {
 
-                            document.querySelector(".Common-flexCenterAlignCenter > .Common-flexCenterAlignCenter.JoinToBattleComponentStyle-newButtonJoinA.JoinToBattleComponentStyle-buttonJoin")?.click();
+                            'bubbles': true,
+                            'cancelBubble': true,
+                            'cancelable': true,
+                            'charCode': 0,
+                            'ctrlKey': false,
+                            'location': 0,
+                            'code': "Enter",
+                            'char': '13',
+                            'key': '13',
+                            'shiftKey': false,
+                            'keyCode': 13,
+                            'which': 13,
+                            'repeat': true,
 
-                            document.body.dispatchEvent(new KeyboardEvent("keydown", {
+                        }));
 
-                                'bubbles': true,
-                                'cancelBubble': true,
-                                'cancelable': true,
-                                'charCode': 0,
-                                'ctrlKey': false,
-                                'location': 0,
-                                'code': "Enter",
-                                'char': '13',
-                                'key': '13',
-                                'shiftKey': false,
-                                'keyCode': 13,
-                                'which': 13,
-                                'repeat': true,
+                        document.body.dispatchEvent(new KeyboardEvent("keyup", {
 
-                            }));
+                            'bubbles': true,
+                            'cancelBubble': true,
+                            'cancelable': true,
+                            'charCode': 0,
+                            'ctrlKey': false,
+                            'location': 0,
+                            'code': "Enter",
+                            'char': '13',
+                            'key': '13',
+                            'shiftKey': false,
+                            'keyCode': 13,
+                            'which': 13,
+                            'repeat': true,
 
-                            document.body.dispatchEvent(new KeyboardEvent("keyup", {
+                        }));
 
-                                'bubbles': true,
-                                'cancelBubble': true,
-                                'cancelable': true,
-                                'charCode': 0,
-                                'ctrlKey': false,
-                                'location': 0,
-                                'code': "Enter",
-                                'char': '13',
-                                'key': '13',
-                                'shiftKey': false,
-                                'keyCode': 13,
-                                'which': 13,
-                                'repeat': true,
+                        return alfaRepeat();
 
-                            }));
-
-                            return alfaRepeat();
-
-                        }, 0);
-
-                    };
+                    }, 0);
 
                 };
 
@@ -6756,55 +6750,49 @@
 
                 function bravoRepeat() {
 
-                    let disableCheck = document.querySelector('.ButtonComponentStyle-disabled');
+                    this.bravoTimeout = setTimeout(function() {
 
-                    if (!disableCheck) {
+                        document.querySelector(".Common-flexCenterAlignCenterColumn > .Common-flexCenterAlignCenter.JoinToBattleComponentStyle-newButtonJoinA.JoinToBattleComponentStyle-buttonJoin")?.click();
 
-                        this.bravoTimeout = setTimeout(function() {
+                        document.body.dispatchEvent(new KeyboardEvent("keydown", {
 
-                            document.querySelector(".Common-flexCenterAlignCenterColumn > .Common-flexCenterAlignCenter.JoinToBattleComponentStyle-newButtonJoinA.JoinToBattleComponentStyle-buttonJoin")?.click();
+                            'bubbles': true,
+                            'cancelBubble': true,
+                            'cancelable': true,
+                            'charCode': 0,
+                            'ctrlKey': false,
+                            'location': 0,
+                            'code': "Enter",
+                            'char': '13',
+                            'key': '13',
+                            'shiftKey': false,
+                            'keyCode': 13,
+                            'which': 13,
+                            'repeat': true,
 
-                            document.body.dispatchEvent(new KeyboardEvent("keydown", {
+                        }));
 
-                                'bubbles': true,
-                                'cancelBubble': true,
-                                'cancelable': true,
-                                'charCode': 0,
-                                'ctrlKey': false,
-                                'location': 0,
-                                'code': "Enter",
-                                'char': '13',
-                                'key': '13',
-                                'shiftKey': false,
-                                'keyCode': 13,
-                                'which': 13,
-                                'repeat': true,
+                        document.body.dispatchEvent(new KeyboardEvent("keyup", {
 
-                            }));
+                            'bubbles': true,
+                            'cancelBubble': true,
+                            'cancelable': true,
+                            'charCode': 0,
+                            'ctrlKey': false,
+                            'location': 0,
+                            'code': "Enter",
+                            'char': '13',
+                            'key': '13',
+                            'shiftKey': false,
+                            'keyCode': 13,
+                            'which': 13,
+                            'repeat': true,
 
-                            document.body.dispatchEvent(new KeyboardEvent("keyup", {
+                        }));
 
-                                'bubbles': true,
-                                'cancelBubble': true,
-                                'cancelable': true,
-                                'charCode': 0,
-                                'ctrlKey': false,
-                                'location': 0,
-                                'code': "Enter",
-                                'char': '13',
-                                'key': '13',
-                                'shiftKey': false,
-                                'keyCode': 13,
-                                'which': 13,
-                                'repeat': true,
+                        return bravoRepeat();
 
-                            }));
-
-                            return bravoRepeat();
-
-                        }, 0);
-
-                    };
+                    }, 0);
 
                 };
 
