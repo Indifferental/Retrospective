@@ -4997,7 +4997,8 @@
         .DSGBTN_1Container,
         .DSGBTN_2Container,
         .DSGBTN_3Container,
-        .DSGBTN_4Container {
+        .DSGBTN_4Container,
+        .DSGBTN_5Container {
             background: rgb(35 35 35 / 15%);
             box-shadow: 0em 0em 0.5em 0em rgb(0 0 0 / 30%);
             border-radius: 0.35em;
@@ -5032,10 +5033,16 @@
             right: 18em;
         }
 
+        .DSGBTN_5Container {
+            top: 4.5em;
+            right: 18em;
+        }
+
         .DSGBTN_1,
         .DSGBTN_2,
         .DSGBTN_3,
-        .DSGBTN_4 {
+        .DSGBTN_4,
+        .DSGBTN_5 {
             background: rgba(255 255 255 / 25%);
             box-shadow: rgba(0 0 0 / 20%) 0em 0em 0.5em;
             border-radius: 0.35em;
@@ -5054,7 +5061,8 @@
         .DSGBTN_1Span,
         .DSGBTN_2Span,
         .DSGBTN_3Span,
-        .DSGBTN_4Span {
+        .DSGBTN_4Span,
+        .DSGBTN_5Span {
             position: absolute;
             pointer-events: none;
             color: white;
@@ -5468,25 +5476,25 @@
 
         const MenuSpan = document.createElement('span');
               MenuSpan.className = 'MenuSpan'
-              MenuSpan.innerHTML = 'Retrospective [16.06.2024 release]'
+              MenuSpan.innerHTML = 'Retrospective [17.06.2024 release]'
 
               MenuPage.appendChild(MenuSpan);
 
         const MenuSpanChng1 = document.createElement('span');
               MenuSpanChng1.className = 'MenuSpanChng1'
-              MenuSpanChng1.innerHTML = 'Added Alfa and Bravo Teams clicker;'
+              MenuSpanChng1.innerHTML = '• Added Alfa and Bravo Teams clicker;'
 
               MenuPage.appendChild(MenuSpanChng1);
 
         const MenuSpanChng2 = document.createElement('span');
               MenuSpanChng2.className = 'MenuSpanChng2'
-              MenuSpanChng2.innerHTML = '• If you have questions, write discord: eternalrestawaits'
+              MenuSpanChng2.innerHTML = '• Added "Off Nickname and Rank" button;'
 
               MenuPage.appendChild(MenuSpanChng2);
 
         const MenuSpanChng3 = document.createElement('span');
               MenuSpanChng3.className = 'MenuSpanChng3'
-              MenuSpanChng3.innerHTML = ''
+              MenuSpanChng3.innerHTML = '• If you have questions, write discord: eternalrestawaits'
 
               MenuPage.appendChild(MenuSpanChng3);
 
@@ -5579,6 +5587,23 @@
               DSGBTN_4Span.innerHTML = 'Off Supplies (dragging window)'
 
               DSGBTN_4Container.appendChild(DSGBTN_4Span);
+
+
+        const DSGBTN_5Container = document.createElement('div');
+              DSGBTN_5Container.className = 'DSGBTN_5Container'
+
+              DesignPageHeader.appendChild(DSGBTN_5Container);
+
+        const DSGBTN_5 = document.createElement('div');
+              DSGBTN_5.className = 'DSGBTN_5'
+
+              DSGBTN_5Container.appendChild(DSGBTN_5);
+
+        const DSGBTN_5Span = document.createElement('span');
+              DSGBTN_5Span.className = 'DSGBTN_5Span'
+              DSGBTN_5Span.innerHTML = 'Off Nickname and Rank'
+
+              DSGBTN_5Container.appendChild(DSGBTN_5Span);
 
 
         const ToolHeader = document.createElement('div');
@@ -6071,6 +6096,101 @@
             };
 
             SuppliesWindowButton();
+
+            function NicknameButton() {
+
+                let RS_NicknameToggle = localStorage.getItem('RS_NicknameToggle') === 'true'
+
+                function LayerFunction(css) {
+
+                    const body = document.body || document.getElementsByTagName('body')[0];
+
+                    const style = document.createElement('style');
+                          style.className = 'OffNickname'
+
+                    if (style.styleSheet) {
+
+                        style.styleSheet.cssText = css
+
+                    } else {
+
+                        style.appendChild(document.createTextNode(css));
+
+                    };
+
+                    body.appendChild(style);
+
+                };
+
+                function OffNickname() {
+
+                    DSGBTN_5.style = 'background: rgb(255 255 255 / 60%); box-shadow: rgba(255 255 255 / 50%) 0em 0em 1em; margin-right: unset; margin-left: 3em'
+                    DSGBTN_5Container.style = 'background: rgb(50 50 50); box-shadow: rgba(0 0 0 / 50%) 0em 0em 1em'
+
+                    const css = `
+
+                    .MainScreenComponentStyle-containerPanel > .UserInfoContainerStyle-blockLeftPanel > .UserInfoContainerStyle-userTitleContainer > div.Common-flexStartAlignCenter > .UserInfoContainerStyle-rankIconContainerClickable, .UserInfoContainerStyle-containerRightBorder,
+                    .UserInfoContainerStyle-containerProgressMainScreen, .BreadcrumbsComponentStyle-headerContainer > div.Common-flexCenterAlignStart > div.Common-flexStartAlignCenter > div.UserInfoContainerStyle-rankIconContainerClickable,
+                    .BattleComponentStyle-canvasContainer > .BattleHudComponentStyle-hudContainer > div > .UserInfoContainerStyle-userTitleContainer > .Common-flexStartAlignCenter > .UserInfoContainerStyle-rankIconContainer {
+                        opacity: 0;
+                    }
+
+                    `
+
+                    LayerFunction(css);
+
+                };
+
+                function ShowNickname() {
+
+                    DSGBTN_5.style = ''
+                    DSGBTN_5Container.style = ''
+
+                    let StyleElement = document.querySelector('.OffNickname');
+
+                    if (StyleElement) {
+
+                        StyleElement.remove();
+
+                    };
+
+                };
+
+                function DSGBTN_5Toggle() {
+
+                   RS_NicknameToggle = !RS_NicknameToggle
+
+                    if (RS_NicknameToggle) {
+
+                        OffNickname();
+
+                    }
+
+                    if (!RS_NicknameToggle) {
+
+                        ShowNickname();
+
+                    };
+
+                    localStorage.setItem('RS_NicknameToggle', RS_NicknameToggle.toString());
+
+                };
+
+                if (RS_NicknameToggle) {
+
+                    OffNickname();
+
+                };
+
+                DSGBTN_5Container.addEventListener('click', function() {
+
+                    DSGBTN_5Toggle();
+
+                });
+
+            };
+
+            NicknameButton();
 
         };
 
@@ -6894,7 +7014,7 @@
 
         const BlockContainerChildSpan = document.createElement('span')
               BlockContainerChildSpan.className = 'StartAppend-blockChildSpan'
-              BlockContainerChildSpan.innerHTML = '> Retrospective [16.06.2024 release] // Press F9 to open the menu and view the changelog.'
+              BlockContainerChildSpan.innerHTML = '> Retrospective [17.06.2024 release] // Press F9 to open the menu and view the changelog.'
 
               BlockContainerChild.appendChild(BlockContainerChildSpan);
 
