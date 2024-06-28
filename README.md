@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/Indifferental/Retrospective/main/assets/newlogo.webp" alt="logo" style="width: 256px"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Indifferental/Retrospective/main/assets/newlogo.webp" alt="logo" style="width: 512px"/></p>
 
 ## Описание
 Кастомная тема на игру Танки Онлайн. Была проведена полная переработка главного меню, гаража, оригинального дизайна игры, таб расширен и дополнен постоянным показом резистов. На данный момент реализована функция смены разных фонов в меню `F9`, визуального скрытия припасов в гараже.
