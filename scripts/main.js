@@ -583,6 +583,20 @@
             }
         }
 
+        @keyframes text1off {
+            0% {
+                font-size: 2.5em;
+                opacity: 1;
+                margin-bottom: 2em;
+            }
+
+            100% {
+                font-size: 2.5em;
+                opacity: 0;
+                margin-bottom: 4.25em;
+            }
+        }
+
         @keyframes text2 {
             70% {
                 margin-top: 1.7em;
@@ -592,6 +606,20 @@
                 font-size: 2.5em;
                 opacity: 1;
                 margin-top: 2em;
+            }
+        }
+
+        @keyframes text2off {
+            0% {
+                font-size: 2.5em;
+                opacity: 1;
+                margin-top: 2em;
+            }
+
+            100% {
+                font-size: 2.5em;
+                opacity: 0;
+                margin-top: 4.25em;
             }
         }
 
@@ -5766,19 +5794,19 @@
 
         const MenuSpanChng1 = document.createElement('span');
               MenuSpanChng1.className = 'MenuSpanChng1'
-              MenuSpanChng1.innerHTML = '• Added Alfa and Bravo Teams clicker;'
+              MenuSpanChng1.innerHTML = '• Added an experimental button for switching multiple backgrounds;'
 
               MenuPage.appendChild(MenuSpanChng1);
 
         const MenuSpanChng2 = document.createElement('span');
               MenuSpanChng2.className = 'MenuSpanChng2'
-              MenuSpanChng2.innerHTML = '• Added "Off Nickname and Rank" button;'
+              MenuSpanChng2.innerHTML = '• Added an animation when entering a page;'
 
               MenuPage.appendChild(MenuSpanChng2);
 
         const MenuSpanChng3 = document.createElement('span');
               MenuSpanChng3.className = 'MenuSpanChng3'
-              MenuSpanChng3.innerHTML = '• If you have questions, write discord: eternalrestawaits'
+              MenuSpanChng3.innerHTML = '• Russian theme translation will be added soon.'
 
               MenuPage.appendChild(MenuSpanChng3);
 
@@ -7529,13 +7557,14 @@
 
     function StartScreen() {
 
-        function CreateDiv() {
+        const MainHeader = document.createElement('div');
+              MainHeader.style = 'position: absolute; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; pointer-events: none;'
 
-            const MainHeader = document.getElementsByClassName('Common-entranceGradient')[0];
+        document.body.appendChild(MainHeader);
 
-            setTimeout(function() {
+        setTimeout(function() {
 
-                if (MainHeader) {
+            if (MainHeader) {
 
                 const ImageContainer = document.createElement('img');
                       ImageContainer.className = 'entranceGradient-rsImage'
@@ -7577,6 +7606,12 @@
 
                     }, 1300);
 
+                    setTimeout(function() {
+
+                        MainHeader.removeChild(ImageContainer);
+
+                    }, 1800);
+
                 };
 
                 if (FirstLeaf) {
@@ -7599,6 +7634,12 @@
 
                     }, 1450);
 
+                    setTimeout(function() {
+
+                        MainHeader.removeChild(FirstLeaf);
+
+                    }, 1950);
+
                 };
 
                 if (SecLeaf) {
@@ -7620,6 +7661,12 @@
                         SecLeaf.style = 'animation: secleaf 500ms forwards ease-in-out'
 
                     }, 1600);
+
+                    setTimeout(function() {
+
+                        MainHeader.removeChild(SecLeaf);
+
+                    }, 2100);
 
                 };
 
@@ -7666,28 +7713,40 @@
 
             };
 
-            }, 200);
+        }, 800);
 
-        };
+        let Observer = new MutationObserver(function(Inspect) { Inspect.forEach(function(Mutation) { if (Mutation.addedNodes.length && Mutation.type === 'childList') { Mutation.addedNodes.forEach(function(Check) {
 
+        if (Check.nodeType === 1 && Check.classList.contains('ApplicationLoaderComponentStyle-container')) {
 
-        function Observe() {
+            let ApplicationLoader = document.getElementsByClassName('ApplicationLoaderComponentStyle-container Common-background')[0];
 
-            let Observer = new MutationObserver(function(Inspect) { Inspect.forEach(function(Mutation) { if (Mutation.addedNodes.length && Mutation.type === 'childList') { Mutation.addedNodes.forEach(function(Check) {
+            if (ApplicationLoader) {
 
-            if (Check.nodeType === 1 && Check.classList.contains('Common-entranceBackground')) {
+                let text1 = document.getElementsByClassName('entranceGradient-firstText')[0];
 
-                CreateDiv();
+                if (text1) {
+
+                    text1.style = 'animation: text1off 800ms forwards ease-in-out'
+
+                };
+
+                let text2 = document.getElementsByClassName('entranceGradient-secondText')[0];
+
+                if (text2) {
+
+                    text2.style = 'animation: text2off 800ms forwards ease-in-out'
+
+                };
+
 
             };
 
-            }); }}); });
-
-            let Configuration = { subtree: true, childList: true }; Observer.observe(document.body, Configuration);
-
         };
 
-        Observe();
+        }); }}); });
+
+        let Configuration = { subtree: true, childList: true }; Observer.observe(document.body, Configuration);
 
     };
 
