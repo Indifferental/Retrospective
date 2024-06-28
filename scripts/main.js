@@ -7533,7 +7533,9 @@
 
             const MainHeader = document.getElementsByClassName('Common-entranceGradient')[0];
 
-            if (MainHeader) {
+            setTimeout(function() {
+
+                if (MainHeader) {
 
                 const ImageContainer = document.createElement('img');
                       ImageContainer.className = 'entranceGradient-rsImage'
@@ -7663,6 +7665,8 @@
                 };
 
             };
+
+            }, 200);
 
         };
 
