@@ -7558,6 +7558,7 @@
     function StartScreen() {
 
         const MainHeader = document.createElement('div');
+              MainHeader.className = 'entranceHeader'
               MainHeader.style = 'position: absolute; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; pointer-events: none;'
 
         document.body.appendChild(MainHeader);
@@ -7739,6 +7740,47 @@
 
                 };
 
+                setTimeout(function() {
+
+                    let header = document.getElementsByClassName('entranceHeader')[0];
+
+                    header.remove();
+
+                }, 1000);
+
+            };
+
+        };
+
+        if (Check.nodeType === 1 && Check.classList.contains('Common-container')) {
+
+            let MainMenu = document.getElementsByClassName('MainScreenComponentStyle-containerForMenuGradient')[0];
+
+            if (MainMenu) {
+
+                let text1 = document.getElementsByClassName('entranceGradient-firstText')[0];
+
+                if (text1) {
+
+                    text1.style = 'animation: text1off 800ms forwards ease-in-out'
+
+                };
+
+                let text2 = document.getElementsByClassName('entranceGradient-secondText')[0];
+
+                if (text2) {
+
+                    text2.style = 'animation: text2off 800ms forwards ease-in-out'
+
+                };
+
+                setTimeout(function() {
+
+                    let header = document.getElementsByClassName('entranceHeader')[0];
+
+                    header.remove();
+
+                }, 1000);
 
             };
 
