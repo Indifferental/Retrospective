@@ -6041,7 +6041,7 @@
 
         const MenuSpan = document.createElement('span');
               MenuSpan.className = 'MenuSpan'
-              MenuSpan.innerHTML = 'Retrospective [07:12 02.07.2024 release]'
+              MenuSpan.innerHTML = 'Retrospective [02.07.2024 release]'
 
               MenuPage.appendChild(MenuSpan);
 
@@ -8081,7 +8081,7 @@
 
         const BlockContainerChildSpan = document.createElement('span')
               BlockContainerChildSpan.className = 'StartAppend-blockChildSpan'
-              BlockContainerChildSpan.innerHTML = '> Retrospective [02.07.2024 07:12 release] // Press F9 to open the menu and view the changelog.'
+              BlockContainerChildSpan.innerHTML = '> Retrospective [02.07.2024 release] // Press F9 to open the menu and view the changelog.'
 
               BlockContainerChild.appendChild(BlockContainerChildSpan);
 
@@ -8089,7 +8089,9 @@
 
               if (lang === 'RU') {
 
-                  BlockContainerChildSpan.innerHTML = '> Retrospective [Релиз от 02.07.2024 07:12] // Нажмите F9, чтобы открыть меню и просмотреть журнал изменений.'
+                  BlockContainerChild.style = 'width: 56em'
+
+                  BlockContainerChildSpan.innerHTML = '> Retrospective [Релиз от 02.07.2024] // Нажмите F9, чтобы открыть меню и просмотреть журнал изменений.'
 
               };
 
@@ -8336,7 +8338,7 @@
 
         };
 
-        if (Check.nodeType === 1 && Check.classList.contains('Common-container')) {
+        if (Check.nodeType === 1 && Check.classList.contains('Common-container') || Check.classList.contains('BattleComponentStyle-canvasContainer')) {
 
             let MainMenu = document.getElementsByClassName('MainScreenComponentStyle-containerForMenuGradient')[0];
 
