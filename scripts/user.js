@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      none
 // @description  none
-// @author       https://vk.com/drawingwithblood
+// @author       https://vk.com/legionlegionlegionlegionlegion
 // @match        https://*.tankionline.com/*
 // @icon         https://raw.githubusercontent.com/Indifferental/Retrospective/main/assets/newlogo.webp
 // @grant        GM_xmlhttpRequest
