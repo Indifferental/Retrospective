@@ -5,13 +5,13 @@
 
 ## Установка
 1. Установите расширение [Tampermonkey](https://www.tampermonkey.net/) на ваш браузер
-2. Создайте новый скрипт и [вставьте этот код](https://github.com/Indifferental/Tanki-Online-HTML-2021-Theme/blob/main/scripts/user.js)
+2. Создайте новый скрипт и [вставьте этот код](https://github.com/Indifferental/Retrospective/blob/main/scripts/user.js)
 3. В появившемся при заходе в игру окне нажмите «Всегда разрешать»
 
 ## Description
-Theme for the game Tanki Online. In this project, it was decided to recreate the visual design of the game until 2021 with some exceptions and modifications. At the moment, the main menu, garage and statistics window have been recreated directly in the game itself.
+Custom theme for Tanki Online. The main menu, the garage, and the original game design were completely redesigned; the tab was expanded and supplemented with a permanent display of resistances. At the moment, the function of changing several backgrounds in the `F9` menu, visually hiding supplies in the garage, nickname and rank, crystals and tankoins has been implemented. Automatic translation into Russian language will be added soon.
 
 ## Installation
 1. Install the [Tampermonkey](https://www.tampermonkey.net/) extension on your browser
-2. Create new script and [paste this code](https://github.com/Indifferental/Tanki-Online-HTML-2021-Theme/blob/main/scripts/user.js) there
+2. Create new script and [paste this code](https://github.com/Indifferental/Retrospective/blob/main/scripts/user.js) there
 3. In the window that appears when you enter the game, click «Always allow»
