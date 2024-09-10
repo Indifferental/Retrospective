@@ -140,7 +140,7 @@
 
                 const BlockContainerChildSpan = document.createElement('span')
                       BlockContainerChildSpan.className = 'StartAppend-blockChildSpan'
-                      BlockContainerChildSpan.innerHTML = '> Retrospective [15.08.2024 release] // Press F9 to open the menu and view the changelog.'
+                      BlockContainerChildSpan.innerHTML = '> Retrospective [10.09.2024 release] // Press F9 to open the menu and view the changelog.'
 
                 BlockContainerChild.appendChild(BlockContainerChildSpan);
 
@@ -173,7 +173,7 @@
                 const MainHeader = document.getElementsByClassName('UserInfoContainerStyle-blockForIconTankiOnline')[0];
 
                 const Hyperlink = document.createElement('a');
-                      Hyperlink.setAttribute('href', 'https://vk.com/legionlegionlegionlegionlegion')
+                      Hyperlink.setAttribute('href', 'https://github.com/Indifferental/Retrospective')
                       Hyperlink.className = 'UserInfoContainerStyle-hyperlink'
                       Hyperlink.target = '_blank'
 
@@ -193,14 +193,6 @@
 
                       image.className = 'UserInfoContainerStyle-RetrospectiveImage'
                       image.src = 'data:image/webp;base64,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'
-
-                };
-
-                const tankiLogo = document.querySelector('.Common-entranceGradient > .HeaderComponentStyle-linkBar > .Common-flexEndAlignCenter > .HeaderComponentStyle-logoTankOnline');
-
-                if (tankiLogo) {
-
-                        tankiLogo.src = rsLogo
 
                 };
 
@@ -1767,7 +1759,6 @@
                 .Common-activeMenu {
                         background: transparent;
                         color: white;
-                        text-shadow: 0 0 8px rgb(255 255 255 / 50%);
 
                         transition: var(--menu-transition);
                 }
@@ -1775,7 +1766,6 @@
                 .Common-activeMenu:hover,
                 .MenuComponentStyle-mainMenuItem:hover {
                         color: white;
-                        text-shadow: 0 0 8px rgb(255 255 255 / 50%);
                 }
 
                 .Common-menuItemActive {
@@ -1894,7 +1884,7 @@
                 .SaleByKitStyle-commonBlockModal {
                         background: var(--menu-background);
                         box-shadow: var(--sh-box-shadow);
-                        backdrop-filter: blur(12px);
+                        backdrop-filter: blur(20px);
                         border-radius: 0.5em;
 
                         animation: translateUp 200ms ease-out;
@@ -2228,6 +2218,18 @@
                         margin-top: 3em;
                 }
 
+                .Common-buttonQE {
+                        background: white;
+                        min-width: unset;
+                        min-height: unset;
+                        width: 2em;
+                        height: 1.15em;
+                }
+
+                .Common-buttonQE span {
+                        color: black;
+                }
+
                 .BattlePassLobbyComponentStyle-menuBattlePass {
                         background: var(--menu-background);
                         box-shadow: var(--menu-box-shadow);
@@ -2448,7 +2450,7 @@
                 }
 
                 .MountedItemsStyle-itemPreview,
-                .MountedItemsStyle-commonBlockPaint img {
+                .MountedItemsStyle-commonBlockGrenades img {
                         margin-top: 2em;
                 }
 
@@ -3230,7 +3232,7 @@
                         animation: blending 150ms ease-out;
                 }
 
-                .MountedItemsStyle-containerBlockGarage > div.MountedItemsStyle-commonBlockPaint {
+                .MountedItemsStyle-containerBlockGarage > div.MountedItemsStyle-commonBlockGrenades {
                         background: var(--menu-background);
                         box-shadow: var(--menu-box-shadow);
                         backdrop-filter: var(--menu-backdrop-filter);
@@ -3743,6 +3745,14 @@
                 .ClanCommonStyle-buttonInvite > .Common-flexStartAlignStart > .HotKey-commonBlockForHotKey {
                         visibility: hidden;
                         padding: unset;
+                }
+
+                .ClanCreateComponentStyle-blockCreatureClan {
+                        background: var(--menu-background);
+                        backdrop-filter: blur(40px);
+                        box-shadow: var(--sh-box-shadow);
+
+                        animation: translateUp 200ms ease-out;
                 }
 
                 .SettingsComponentStyle-scrollingMenu {
@@ -4767,12 +4777,15 @@
                         filter: unset;
                 }
 
-                .HeaderComponentStyle-headerLinkBar,
-                .HeaderComponentStyle-commonBlockContentPanel {
+                .HeaderComponentStyle-headerLinkBar {
                         height: 100%;
                         justify-content: center;
                         align-items: center;
                         padding: unset;
+                }
+
+                .HeaderComponentStyle-linkBar {
+                        z-index: 15;
                 }
 
                 .Common-entranceGradient > .Common-contentSpaceBetween > .HeaderComponentStyle-headerLinkBar > .HeaderComponentStyle-commonBlockContentPanel > .Common-flexStartAlignCenter {
@@ -4781,15 +4794,8 @@
                         left: 1em;
                 }
 
-                .Common-entranceGradient > .HeaderComponentStyle-linkBar {
-                        visibility: hidden;
-                }
-
                 .Common-entranceGradient > .HeaderComponentStyle-linkBar > .Common-flexEndAlignCenter > .HeaderComponentStyle-logoTankOnline {
-                        visibility: visible !important;
-                        top: 1em;
-                        width: auto;
-                        height: 15em;
+                        visibility: hidden;
                 }
 
                 .BattleModesComponentStyle-blockModesFilter > .Common-flexCenterAlignCenter {
@@ -5551,7 +5557,7 @@
 
                 .MenuSpanChng3 {
                         position: absolute;
-                        top: 7.5em;
+                        top: 6.5em;
                         left: 1em;
                 }
 
@@ -5862,6 +5868,7 @@
                 .DSGBTN_3Container,
                 .DSGBTN_4Container,
                 .DSGBTN_5Container,
+                .DSGBTN_7Container,
                 .BGBTN_1Container,
                 .BGBTN_2Container,
                 .BGBTN_3Container,
@@ -5887,6 +5894,7 @@
                 .DSGBTN_3Container:hover,
                 .DSGBTN_4Container:hover,
                 .DSGBTN_5Container:hover,
+                .DSGBTN_7Container:hover,
                 .BGBTN_1Container:hover,
                 .BGBTN_2Container:hover,
                 .BGBTN_3Container:hover,
@@ -5901,6 +5909,7 @@
                 .DSGBTN_3Container:hover > div,
                 .DSGBTN_4Container:hover > div,
                 .DSGBTN_5Container:hover > div,
+                .DSGBTN_7Container:hover > div,
                 .BGBTN_1Container:hover > div,
                 .BGBTN_2Container:hover > div,
                 .BGBTN_3Container:hover > div,
@@ -5936,6 +5945,11 @@
                         right: 2em;
                 }
 
+                .DSGBTN_7Container {
+                        top: 18em;
+                        right: 2em;
+                }
+
                 .BGBTN_1Container,
                 .TBBTN_1Container {
                         top: 1em;
@@ -5965,6 +5979,7 @@
                 .DSGBTN_3,
                 .DSGBTN_4,
                 .DSGBTN_5,
+                .DSGBTN_7,
                 .BGBTN_1,
                 .BGBTN_2,
                 .BGBTN_3,
@@ -5995,6 +6010,7 @@
                 .DSGBTN_4Span,
                 .DSGBTN_5Span,
                 .DSGBTN_6Span,
+                .DSGBTN_7Span,
                 .BNDBTN_1Span,
                 .BNDBTN_2Span {
                         transition: var(--menu-transition);
@@ -6127,7 +6143,7 @@
                         cursor: pointer;
                 }
 
-                .minesRepbuttonSpan {
+                .minesRepeatbuttonspan {
                         font-size: 1.2em;
                         font-family: 'RubikRegular';
                         color: rgb(255 255 255 / 35%);
@@ -6139,12 +6155,12 @@
                         transition: var(--menu-transition);
                 }
 
-                .minesRepeatbutton:hover .minesRepbuttonSpan {
+                .minesRepeatbutton:hover .minesRepeatbuttonspan {
                         margin-bottom: unset;
                         opacity: 1;
                 }
 
-                .minesRepbuttonimg {
+                .minesRepeatbuttonimg {
                         filter: drop-shadow(0 0 4px rgb(0 0 0 / 15%));
                         width: 1.2em;
                         pointer-events: none;
@@ -6152,7 +6168,7 @@
                         transition: var(--menu-transition);
                 }
 
-                .minesRepeatbutton:hover .minesRepbuttonimg {
+                .minesRepeatbutton:hover .minesRepeatbuttonimg {
                         margin-top: 2em;
                         opacity: 0;
                 }
@@ -6202,7 +6218,7 @@
                         cursor: pointer;
                 }
 
-                .suppliesRepbuttonSpan {
+                .suppliesRepeatbuttonspan {
                         font-size: 1.2em;
                         font-family: 'RubikRegular';
                         color: rgb(255 255 255 / 35%);
@@ -6214,12 +6230,12 @@
                         opacity: 0;
                 }
 
-                .suppliesRepeatbutton:hover .suppliesRepbuttonSpan {
+                .suppliesRepeatbutton:hover .suppliesRepeatbuttonspan {
                         margin-bottom: unset;
                         opacity: 1;
                 }
 
-                .suppliesRepbuttonimg2 {
+                .suppliesRepeatbuttonimg2 {
                         filter: drop-shadow(0 0 4px rgb(0 0 0 / 15%));
                         width: 1.2em;
                         pointer-events: none;
@@ -6228,7 +6244,7 @@
                         transition: var(--menu-transition);
                 }
 
-                .suppliesRepbuttonimg3 {
+                .suppliesRepeatbuttonimg3 {
                         filter: drop-shadow(0 0 4px rgb(0 0 0 / 15%));
                         width: 1.2em;
                         pointer-events: none;
@@ -6236,7 +6252,7 @@
                         transition: var(--menu-transition);
                 }
 
-                .suppliesRepbuttonimg4 {
+                .suppliesRepeatbuttonimg4 {
                         filter: drop-shadow(0 0 4px rgb(0 0 0 / 15%));
                         width: 1.2em;
                         pointer-events: none;
@@ -6245,9 +6261,9 @@
                         transition: var(--menu-transition);
                 }
 
-                .suppliesRepeatbutton:hover .suppliesRepbuttonimg2,
-                .suppliesRepeatbutton:hover .suppliesRepbuttonimg3,
-                .suppliesRepeatbutton:hover .suppliesRepbuttonimg4 {
+                .suppliesRepeatbutton:hover .suppliesRepeatbuttonimg2,
+                .suppliesRepeatbutton:hover .suppliesRepeatbuttonimg3,
+                .suppliesRepeatbutton:hover .suppliesRepeatbuttonimg4 {
                         margin-top: 2em;
                         opacity: 0;
                 }
@@ -6309,7 +6325,7 @@
                         border-top-right-radius: 0.15em;
                         border-top-left-radius: 0.5em;
 
-                        width: 5.85em;
+                        width: 5.8em;
                         height: 2.5em;
                         position: absolute;
                         left: 27em;
@@ -6328,10 +6344,10 @@
                         border-bottom-right-radius: 0.15em;
                         border-bottom-left-radius: 0.15em;
 
-                        width: 5.85em;
+                        width: 5.8em;
                         height: 2.5em;
                         position: absolute;
-                        left: 33.15em;
+                        left: 33.25em;
                         top: 1em;
                         display: flex;
                         justify-content: center;
@@ -6339,14 +6355,35 @@
                         transition: var(--menu-transition);
                 }
 
+                .dmatchRepeatbutton {
+                        background: rgb(35 35 35);
+                        box-shadow: 0em 0em 0.5em 0em rgb(0 0 0 / 25%);
+                        border-top-right-radius: 0.15em;
+                        border-top-left-radius: 0.15em;
+                        border-bottom-right-radius: 0.5em;
+                        border-bottom-left-radius: 0.5em;
+
+                        width: 12em;
+                        height: 2.5em;
+                        position: absolute;
+                        left: 27em;
+                        top: 4em;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        transition: var(--menu-transition);
+                }
+
                 .alfaRepeatbutton:hover,
-                .bravoRepeatbutton:hover {
+                .bravoRepeatbutton:hover,
+                .dmatchRepeatbutton:hover {
                         background: rgb(50 50 50);
                         cursor: pointer;
                 }
 
-                .alfaRepbuttonSpan,
-                .bravoRepbuttonSpan {
+                .alfaRepeatbuttonspan,
+                .bravoRepeatbuttonspan,
+                .dmatchRepeatbuttonspan {
                         font-size: 1.2em;
                         font-family: 'RubikRegular';
                         color: rgb(255 255 255 / 35%);
@@ -6358,10 +6395,12 @@
                 }
 
                 .alfaRepeatbuttonimg,
-                .bravoRepeatbuttonimg {
+                .bravoRepeatbuttonimg,
+                .dmatchRepeatbuttonimg {
                         filter: drop-shadow(0 0 6px rgb(0 0 0 / 15%));
                         pointer-events: none;
                         position: relative;
+                        width: 1.35em;
                         margin: 0.125em;
                         transition: var(--menu-transition);
                 }
@@ -6375,37 +6414,6 @@
                         height: 100%;
                         z-index: 400;
                         pointer-events: none;
-                }
-
-                .reloadRepeatbutton {
-                        background: rgb(35 35 35);
-                        box-shadow: 0em 0em 0.5em 0em rgb(0 0 0 / 25%);
-                        border-bottom-right-radius: 0.15em;
-                        border-bottom-left-radius: 0.5em;
-                        border-top-right-radius: 0.15em;
-                        border-top-left-radius: 0.15em;
-
-                        transition: var(--menu-transition);
-                        width: 3.5em;
-                        height: 2.5em;
-                        position: absolute;
-                        left: 27em;
-                        top: 4em;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                }
-
-                .reloadRepeatbutton:hover {
-                        background: rgb(50 50 50);
-                        cursor: pointer;
-                }
-
-                .reloadRepbuttonimg {
-                        width: 1.5em;
-                        height: 1.5em;
-                        opacity: 0.5;
-                        transition: var(--menu-transition);
                 }
 
                 .rotating {
@@ -6628,6 +6636,59 @@
                         background: rgb(255 255 255 / 10%);
                 }
 
+                .minesBindAlert,
+                .suppliesBindAlert {
+                        background: linear-gradient(225deg, rgb(30 30 30) 20%, rgb(45 45 45));
+                        box-shadow: var(--sh-box-shadow);
+                        border-radius: 0.5em;
+
+                        position: absolute;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        top: -2em;
+                        left: 2em;
+                        z-index: 1001;
+                        width: 36em;
+                        height: 2em;
+
+                        animation: 300ms ease-in-out 0s 1 normal forwards running MenuTranslateDown;
+                }
+
+                .minesBindAlertSpan,
+                .suppliesBindAlertSpan {
+                        color: rgb(255 255 255 / 50%);
+
+                        position: absolute;
+                        left: 0.6em;
+                }
+
+                .minesBindOffAlert,
+                .suppliesBindOffAlert {
+                        background: linear-gradient(225deg, rgb(30 30 30) 20%, rgb(45 45 45));
+                        box-shadow: var(--sh-box-shadow);
+                        border-radius: 0.5em;
+
+                        position: absolute;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        top: -2em;
+                        left: 2em;
+                        z-index: 1001;
+                        width: 36em;
+                        height: 2em;
+
+                        animation: 300ms ease-in-out 0s 1 normal forwards running MenuTranslateDown;
+                }
+
+                .minesBindOffAlertSpan,
+                .suppliesBindOffAlertSpan {
+                        color: rgb(255 255 255 / 50%);
+
+                        position: absolute;
+                        left: 0.6em;
+                }
 
                 `
 
@@ -6813,25 +6874,25 @@
 
                 const MenuSpan = document.createElement('span');
                       MenuSpan.className = 'MenuSpan'
-                      MenuSpan.innerHTML = 'Retrospective [15.08.2024 release]'
+                      MenuSpan.innerHTML = 'Retrospective [10.09.2024 release]'
 
                       MenuPage.appendChild(MenuSpan);
 
                 const MenuSpanChng1 = document.createElement('span');
                       MenuSpanChng1.className = 'MenuSpanChng1'
-                      MenuSpanChng1.innerHTML = '• Added supplies and mines binds on Binds page with saving in local storage;'
+                      MenuSpanChng1.innerHTML = '• Replaced auto-refresh button with DM clicker;'
 
                       MenuPage.appendChild(MenuSpanChng1);
 
                 const MenuSpanChng2 = document.createElement('span');
                       MenuSpanChng2.className = 'MenuSpanChng2'
-                      MenuSpanChng2.innerHTML = '• Alfa and Bravo clickers have been slightly improved (LeftShift + Enter) / (RightShift + Enter). Also added an auto page refresh button width a delay in seconds.'
+                      MenuSpanChng2.innerHTML = '• Fixed incorrect grenades button in garage;'
 
                       MenuPage.appendChild(MenuSpanChng2);
 
                 const MenuSpanChng3 = document.createElement('span');
                       MenuSpanChng3.className = 'MenuSpanChng3'
-                      MenuSpanChng3.innerHTML = `• Menu design has been some 'redesigned'. In the next updates it is planned to develop a function with the addition of your own background and some other things.`
+                      MenuSpanChng3.innerHTML = `• In the next updates it is planned to develop a function with the addition of your own background and some other things.`
 
                       MenuPage.appendChild(MenuSpanChng3);
 
@@ -9249,10 +9310,10 @@
 
                                 };
 
-                                const minesRepbutton = document.createElement('div');
-                                      minesRepbutton.className = 'minesRepeatbutton'
+                                const minesRepeatbutton = document.createElement('div');
+                                      minesRepeatbutton.className = 'minesRepeatbutton'
 
-                                ToolPageHeader.appendChild(minesRepbutton);
+                                ToolPageHeader.appendChild(minesRepeatbutton);
 
                                 const minesInput = document.createElement('input');
                                       minesInput.type = 'text'
@@ -9262,19 +9323,19 @@
 
                                 ToolPageHeader.appendChild(minesInput);
 
-                                const minesRepbuttonimg = document.createElement('img');
-                                      minesRepbuttonimg.className = 'minesRepbuttonimg'
-                                      minesRepbuttonimg.src = 'https://tankionline.com/play/static/images/Mine.230cdfaa.svg'
+                                const minesRepeatbuttonimg = document.createElement('img');
+                                      minesRepeatbuttonimg.className = 'minesRepeatbuttonimg'
+                                      minesRepeatbuttonimg.src = 'https://tankionline.com/play/static/images/Mine.230cdfaa.svg'
 
-                                minesRepbutton.appendChild(minesRepbuttonimg);
+                                minesRepeatbutton.appendChild(minesRepeatbuttonimg);
 
-                                const minesRepbuttonSpan = document.createElement('span');
-                                      minesRepbuttonSpan.className = 'minesRepbuttonSpan'
-                                      minesRepbuttonSpan.innerHTML = 'Start Mines'
+                                const minesRepeatbuttonspan = document.createElement('span');
+                                      minesRepeatbuttonspan.className = 'minesRepeatbuttonspan'
+                                      minesRepeatbuttonspan.innerHTML = 'Start Mines'
 
-                                minesRepbutton.appendChild(minesRepbuttonSpan);
+                                minesRepeatbutton.appendChild(minesRepeatbuttonspan);
 
-                                minesRepbutton.addEventListener('click', function() {
+                                minesRepeatbutton.addEventListener('click', function() {
 
                                         PressCount++
 
@@ -9289,8 +9350,8 @@
                                                 if (PressCount % 2 == 1) {
 
                                                         MenuLogSpan.innerHTML = '> [Mines] Clicker started with ' + minesInputValue + ' delay'
-                                                        minesRepbuttonSpan.innerHTML = 'Stop mines'
-                                                        minesRepbutton.style = 'background: rgb(75 255 85 / 20%)'
+                                                        minesRepeatbuttonspan.innerHTML = 'Stop mines'
+                                                        minesRepeatbutton.style = 'background: rgb(75 255 85 / 20%)'
 
                                                         minesRepeat();
 
@@ -9299,8 +9360,8 @@
                                                 if (PressCount % 2 == 0) {
 
                                                         MenuLogSpan.innerHTML = '> [Mines] Clicker stopped'
-                                                        minesRepbuttonSpan.innerHTML = 'Start mines'
-                                                        minesRepbutton.style = ''
+                                                        minesRepeatbuttonspan.innerHTML = 'Start mines'
+                                                        minesRepeatbutton.style = ''
 
                                                         minesUnrepeat();
 
@@ -9322,7 +9383,7 @@
                                         mPressCount++
 
                                         minesUnrepeat();
-                                        minesRepbutton.style = ''
+                                        minesRepeatbutton.style = ''
 
                                         let pause = document.getElementsByClassName('BattlePauseMenuComponentStyle-blackGlobalWrapper')[0];
 
@@ -9517,10 +9578,10 @@
 
                                 };
 
-                                const suppliesRepbutton = document.createElement('div');
-                                      suppliesRepbutton.className = 'suppliesRepeatbutton'
+                                const suppliesRepeatbutton = document.createElement('div');
+                                      suppliesRepeatbutton.className = 'suppliesRepeatbutton'
 
-                                ToolPageHeader.appendChild(suppliesRepbutton);
+                                ToolPageHeader.appendChild(suppliesRepeatbutton);
 
                                 const suppliesInput = document.createElement('input');
                                       suppliesInput.type = 'text'
@@ -9530,31 +9591,31 @@
 
                                 ToolPageHeader.appendChild(suppliesInput);
 
-                                const suppliesRepbuttonimg2 = document.createElement('img');
-                                      suppliesRepbuttonimg2.className = 'suppliesRepbuttonimg2'
-                                      suppliesRepbuttonimg2.src = 'https://tankionline.com/play/static/images/Shield.6319a2d0.svg'
+                                const suppliesRepeatbuttonimg2 = document.createElement('img');
+                                      suppliesRepeatbuttonimg2.className = 'suppliesRepeatbuttonimg2'
+                                      suppliesRepeatbuttonimg2.src = 'https://tankionline.com/play/static/images/Shield.6319a2d0.svg'
 
-                                suppliesRepbutton.appendChild(suppliesRepbuttonimg2);
+                                suppliesRepeatbutton.appendChild(suppliesRepeatbuttonimg2);
 
-                                const suppliesRepbuttonimg3 = document.createElement('img');
-                                      suppliesRepbuttonimg3.className = 'suppliesRepbuttonimg3'
-                                      suppliesRepbuttonimg3.src = 'https://tankionline.com/play/static/images/DoubleDamage.c601a4b1.svg'
+                                const suppliesRepeatbuttonimg3 = document.createElement('img');
+                                      suppliesRepeatbuttonimg3.className = 'suppliesRepeatbuttonimg3'
+                                      suppliesRepeatbuttonimg3.src = 'https://tankionline.com/play/static/images/DoubleDamage.c601a4b1.svg'
 
-                                suppliesRepbutton.appendChild(suppliesRepbuttonimg3);
+                                suppliesRepeatbutton.appendChild(suppliesRepeatbuttonimg3);
 
-                                const suppliesRepbuttonimg4 = document.createElement('img');
-                                      suppliesRepbuttonimg4.className = 'suppliesRepbuttonimg4'
-                                      suppliesRepbuttonimg4.src = 'https://tankionline.com/play/static/images/Speed.3b207b8e.svg'
+                                const suppliesRepeatbuttonimg4 = document.createElement('img');
+                                      suppliesRepeatbuttonimg4.className = 'suppliesRepeatbuttonimg4'
+                                      suppliesRepeatbuttonimg4.src = 'https://tankionline.com/play/static/images/Speed.3b207b8e.svg'
 
-                                suppliesRepbutton.appendChild(suppliesRepbuttonimg4);
+                                suppliesRepeatbutton.appendChild(suppliesRepeatbuttonimg4);
 
-                                const suppliesRepbuttonSpan = document.createElement('span');
-                                      suppliesRepbuttonSpan.className = 'suppliesRepbuttonSpan'
-                                      suppliesRepbuttonSpan.innerHTML = 'Start Supplies'
+                                const suppliesRepeatbuttonspan = document.createElement('span');
+                                      suppliesRepeatbuttonspan.className = 'suppliesRepeatbuttonspan'
+                                      suppliesRepeatbuttonspan.innerHTML = 'Start Supplies'
 
-                                suppliesRepbutton.appendChild(suppliesRepbuttonSpan);
+                                suppliesRepeatbutton.appendChild(suppliesRepeatbuttonspan);
 
-                                suppliesRepbutton.addEventListener('click', function() {
+                                suppliesRepeatbutton.addEventListener('click', function() {
 
                                         PressCount++
 
@@ -9567,8 +9628,8 @@
                                                 if (PressCount % 2 == 1) {
 
                                                         MenuLogSpan.innerHTML = '> [Supplies] Clicker started with ' + suppliesInputValue + ' delay'
-                                                        suppliesRepbuttonSpan.innerHTML = 'Stop supplies'
-                                                        suppliesRepbutton.style = 'background: rgb(75 255 85 / 20%)'
+                                                        suppliesRepeatbuttonspan.innerHTML = 'Stop supplies'
+                                                        suppliesRepeatbutton.style = 'background: rgb(75 255 85 / 20%)'
 
                                                         suppliesRepeat();
 
@@ -9577,8 +9638,8 @@
                                                 if (PressCount % 2 == 0) {
 
                                                         MenuLogSpan.innerHTML = '> [Supplies] Clicker stopped'
-                                                        suppliesRepbuttonSpan.innerHTML = 'Start supplies'
-                                                        suppliesRepbutton.style = ''
+                                                        suppliesRepeatbuttonspan.innerHTML = 'Start supplies'
+                                                        suppliesRepeatbutton.style = ''
 
                                                         suppliesUnrepeat();
 
@@ -9599,8 +9660,8 @@
 
                                         sPressCount++
 
-                                        suppliesRepbuttonSpan.innerHTML = 'Start supplies'
-                                        suppliesRepbutton.style = ''
+                                        suppliesRepeatbuttonspan.innerHTML = 'Start supplies'
+                                        suppliesRepeatbutton.style = ''
                                         PressCount = 0
 
                                         suppliesUnrepeat();
@@ -9744,8 +9805,6 @@
 
                                                 }));
 
-                                                console.log('alfa clicked');
-
                                                 return alfaRepeat();
 
                                         }, 0);
@@ -9758,31 +9817,31 @@
 
                                 };
 
-                                const alfaRepbutton = document.createElement('div');
-                                      alfaRepbutton.className = 'alfaRepeatbutton'
+                                const alfaRepeatbutton = document.createElement('div');
+                                      alfaRepeatbutton.className = 'alfaRepeatbutton'
 
-                                ToolPageHeader.appendChild(alfaRepbutton);
+                                ToolPageHeader.appendChild(alfaRepeatbutton);
 
-                                const alfaRepbuttonimg = document.createElement('img');
-                                      alfaRepbuttonimg.className = 'alfaRepeatbuttonimg'
-                                      alfaRepbuttonimg.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAeCAYAAADdGWXmAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAETklEQVRIia2W3W8UZRTGf2dmt9220m7pdpsONAiSmBpsoyEEy0eW0iZekGC8MTHxwnhjJCExGC+5IP4BemNiolz4EeQSo72QAoYSjEqhVCiJUk2LZeiHlK1h3e1293gxszvv7EfB6Ekm79fznvOc8z7zzkhPTw+FQmGnqg6ISBxAVRERTKs1t968sf4AuJzP569ECoXCLuDFhq39bY39BzezzsZ/barkrp/7Y/X36/FoNGpJd3f30eiWZ7ckjp95S6Kx2P8XyY+Xz2aXThz+MD/z84wlIvHGvpQjESOQ1nh8puH5ynHlo0g0FmvsSzlA3FJVQFDfY8kvoqgoCF5bQoi3ht9XUdSvvIkr+/GBIkKkfLhCENA4NjVbCZMJlUvMvSbxABfxMquiYrqpGp/YAYPJ+pgbaXhzvGKXapDZevI1LWbBgU5osutjxpaoErWIYJUzq2ECfLYLvtoDezq8uT0JaI7UD1RUGJ0vjQLfqkrEHIgIqiVWSn8celsFVaXJ9sQ33CUGVsusSz4m0zCf8w5XSox9TMQsX2mz+goZ7gqzbo54mZnYyv7ZeTxWpbyMtTplVGyBg8mwo30JiFn1y67Aufk6a+sJ5Ll2SDSGNwx3VR+8adeWYWm1NmZdgVSWsCUCAx31A4FfwpCFS22ZA68FCxhMqjGn7O9UGiytwAaYgsK5BQXV8k1mvn51BbJzo9AeDXN8oaOEgQ9+hVwxEMErPcpSDv7MEYCoFkjwxoggPmAoGT5DEaHBH048gM9ng7WYBUe3w6nZ4Ky827bajOsqYDD9ED6a9gMZ1VhTGHG9idLc3gQ0WHBhIeSi+pIzX+qyKoHTd2rQMk0C5kNdML4My/laKgznWFMgJWD5K+CfdqBcr22ylb0J9V9k/6vxaIFUqswQTZlMuAVlXwJsgQuLPi0NiyLUV8VS1Qe5yQt3WctlRcQTinhMxO/j9yvX2qLCpzNCOi8GXsp4EYHC2trqrcv3gBW7tbVVi+nFntyNsZsRZ3vMbu9O4pffrHhlq8DNFfjpfjBfKYrC4uxs+uO3T+WmLi0BY3ZbW9ucqj4sLt/ryFz8cjo/fXUquunpJ6x4stNkabYm81rZaC6TyYye/Gb5/ddH1tzbaeBisVi8VD4cx3FiwG5gt6o2NO0+vGnDS8eG7O6ntuGn6n1+zJxLEhJEQSkWV299fzX9ybHRwtKdv1X1N2DEdd37ZlUwgjYD+4HngUjzgde2thw6MmR3bN5cv2BQvO/eXTn93tfZH87MqeoK8C0w5bpuGVP3DnccJ+4H7QOxWg4d6W0ZfmPQjifDfx+r2Wxm7PT5lS+OX9G1fB74EfjOdd3VSp+P/PFwHCcBpIBnsCP2hpff3dGcejUlLfGN+dvjE+mT74zm5375C5jFK9lCPV+P/a/tOI4DDKrqNivWYjf0DiSy187OAxm8kk2aJftPwfyAAE8CKVV1gAngvOu62cfZ/w8ftyiGZIZ1igAAAABJRU5ErkJggg=='
+                                const alfaRepeatbuttonimg = document.createElement('img');
+                                      alfaRepeatbuttonimg.className = 'alfaRepeatbuttonimg'
+                                      alfaRepeatbuttonimg.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAeCAYAAADdGWXmAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAETklEQVRIia2W3W8UZRTGf2dmt9220m7pdpsONAiSmBpsoyEEy0eW0iZekGC8MTHxwnhjJCExGC+5IP4BemNiolz4EeQSo72QAoYSjEqhVCiJUk2LZeiHlK1h3e1293gxszvv7EfB6Ekm79fznvOc8z7zzkhPTw+FQmGnqg6ISBxAVRERTKs1t968sf4AuJzP569ECoXCLuDFhq39bY39BzezzsZ/barkrp/7Y/X36/FoNGpJd3f30eiWZ7ckjp95S6Kx2P8XyY+Xz2aXThz+MD/z84wlIvHGvpQjESOQ1nh8puH5ynHlo0g0FmvsSzlA3FJVQFDfY8kvoqgoCF5bQoi3ht9XUdSvvIkr+/GBIkKkfLhCENA4NjVbCZMJlUvMvSbxABfxMquiYrqpGp/YAYPJ+pgbaXhzvGKXapDZevI1LWbBgU5osutjxpaoErWIYJUzq2ECfLYLvtoDezq8uT0JaI7UD1RUGJ0vjQLfqkrEHIgIqiVWSn8celsFVaXJ9sQ33CUGVsusSz4m0zCf8w5XSox9TMQsX2mz+goZ7gqzbo54mZnYyv7ZeTxWpbyMtTplVGyBg8mwo30JiFn1y67Aufk6a+sJ5Ll2SDSGNwx3VR+8adeWYWm1NmZdgVSWsCUCAx31A4FfwpCFS22ZA68FCxhMqjGn7O9UGiytwAaYgsK5BQXV8k1mvn51BbJzo9AeDXN8oaOEgQ9+hVwxEMErPcpSDv7MEYCoFkjwxoggPmAoGT5DEaHBH048gM9ng7WYBUe3w6nZ4Ky827bajOsqYDD9ED6a9gMZ1VhTGHG9idLc3gQ0WHBhIeSi+pIzX+qyKoHTd2rQMk0C5kNdML4My/laKgznWFMgJWD5K+CfdqBcr22ylb0J9V9k/6vxaIFUqswQTZlMuAVlXwJsgQuLPi0NiyLUV8VS1Qe5yQt3WctlRcQTinhMxO/j9yvX2qLCpzNCOi8GXsp4EYHC2trqrcv3gBW7tbVVi+nFntyNsZsRZ3vMbu9O4pffrHhlq8DNFfjpfjBfKYrC4uxs+uO3T+WmLi0BY3ZbW9ucqj4sLt/ryFz8cjo/fXUquunpJ6x4stNkabYm81rZaC6TyYye/Gb5/ddH1tzbaeBisVi8VD4cx3FiwG5gt6o2NO0+vGnDS8eG7O6ntuGn6n1+zJxLEhJEQSkWV299fzX9ybHRwtKdv1X1N2DEdd37ZlUwgjYD+4HngUjzgde2thw6MmR3bN5cv2BQvO/eXTn93tfZH87MqeoK8C0w5bpuGVP3DnccJ+4H7QOxWg4d6W0ZfmPQjifDfx+r2Wxm7PT5lS+OX9G1fB74EfjOdd3VSp+P/PFwHCcBpIBnsCP2hpff3dGcejUlLfGN+dvjE+mT74zm5375C5jFK9lCPV+P/a/tOI4DDKrqNivWYjf0DiSy187OAxm8kk2aJftPwfyAAE8CKVV1gAngvOu62cfZ/w8ftyiGZIZ1igAAAABJRU5ErkJggg=='
 
-                                alfaRepbutton.appendChild(alfaRepbuttonimg);
+                                alfaRepeatbutton.appendChild(alfaRepeatbuttonimg);
 
-                                const alfaRepbuttonSpan = document.createElement('span');
-                                      alfaRepbuttonSpan.className = 'alfaRepbuttonSpan'
-                                      alfaRepbuttonSpan.innerHTML = 'Alfa'
+                                const alfaRepeatbuttonspan = document.createElement('span');
+                                      alfaRepeatbuttonspan.className = 'alfaRepeatbuttonspan'
+                                      alfaRepeatbuttonspan.innerHTML = 'Alfa'
 
-                                alfaRepbutton.appendChild(alfaRepbuttonSpan);
+                                alfaRepeatbutton.appendChild(alfaRepeatbuttonspan);
 
-                                alfaRepbutton.addEventListener('click', function() {
+                                alfaRepeatbutton.addEventListener('click', function() {
 
                                         PressCount++
 
                                         if (PressCount % 2 == 1) {
 
                                                 MenuLogSpan.innerHTML = '> [Team Alfa] Clicker started'
-                                                alfaRepbutton.style = 'background: rgb(75 255 85 / 20%)'
+                                                alfaRepeatbutton.style = 'background: rgb(75 255 85 / 20%)'
 
                                                 alfaRepeat();
 
@@ -9791,7 +9850,7 @@
                                         if (PressCount % 2 == 0) {
 
                                                 MenuLogSpan.innerHTML = '> [Team Alfa] Clicker stopped'
-                                                alfaRepbutton.style = ''
+                                                alfaRepeatbutton.style = ''
 
                                                 alfaUnrepeat();
 
@@ -9895,31 +9954,31 @@
 
                                 };
 
-                                const bravoRepbutton = document.createElement('div');
-                                      bravoRepbutton.className = 'bravoRepeatbutton'
+                                const bravoRepeatbutton = document.createElement('div');
+                                      bravoRepeatbutton.className = 'bravoRepeatbutton'
 
-                                ToolPageHeader.appendChild(bravoRepbutton);
+                                ToolPageHeader.appendChild(bravoRepeatbutton);
 
-                                const bravoRepbuttonimg = document.createElement('img');
-                                      bravoRepbuttonimg.className = 'bravoRepeatbuttonimg'
-                                      bravoRepbuttonimg.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAeCAYAAADdGWXmAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEMUlEQVRIia2WT2wUdRTHP2//Tl3KbgQ36UApUihRWKSwMQQSU5CDNw7cTDiIN0lMDMaEiyfPHD16RQ8cCEqCYDHyRyKlpZU/QRBqaztQltKFUhbKzPMwu7O/2Z0tNfqSzc7v/b6/9973vfd7M9LZ2YnrukVV3S4iOQBVRUQwJUq3kN7YnwEuzM/PDyRc130X+OCdXC77fj6/cqGD/1ZUlZ+mpv4enpnJJZPJmHR0dHxayGa7ju3Y8YkVj1v/m6eqVFy3suf8+a9/L5f/iolIri+ftxfjSF+xjsJb8bjVl8/bQC6mqgg+ZR+hAbCmU1XfsLEXGFSt602c1lECiAgJs0aNDkPPEcGEWBj7WleGcAnVhZMRmbr9+6G3tyWGu3fh8OGmYAJmi+7CVAo2b4Z0ujVmZAQa7InIK5iJwKFDkMnAkSNw9Sps3AjWAr3keTA46LPBrxdUmWEsRMSviYifmu5upKvLr0c6DapIsRhga4HWsqKqcOcOMj1dD9ZkFtUgUmNbLIajtiyfmYFtfGZgoGWDxKLSqACxGGzZEjZUKKCpVBPe8BqksHlroQZZtw6y2bCuWGwqfEhu3YJyORIjItHMAsOmWBZs2NDaEcDAQGjZePlj5qL6ALEY2tsbniCbNqHJZAirqvVznocODUVOkBqz6Abp6YH29nDUNVaqcPQo+uJF/dzOnX76yuUwo8YJEnj23fvGisVQDUUEqqy4fRs5dapuIZWCvXuhv79eq+r1aZTgUodIT0zA8eNNYFwXLl6sGwQoFCCR8LswaqYGS+NSB0xE4MyZZkeNUsNv3Qo3b8LsbBMbc4IALRqE6FdMYxY0nUYLBbh8OYRbsEFMo2BMEMN55CumUPA7d2gotB/VIKpKTFVnzjx4MPnc8yoiEjSKVH9UdVF7kskgJ08iT5/WdSZehJeqLy+USveAx/GlS5fqg+fPO8+WStfWLllidbS15QEJOtOspfmvCqOjfr1q+obUjc3NjX02PHzkXKlUAs7Gs9nshKo+vVepLPt2bOzPwZmZ6+vb25fk0+k3pIFV8G9EHsVmznXnvhkd/eGjS5dO3J6dLQO/eJ53LmgW27YtYBuwTVVTe1asWHGwp2d3dyazxoxcqq8fqdWt+g2DCJ6q9+vDh4MHh4dPjz979kxV7wAnHMeZhnBn1py+BrwHbAES+7q63jzQ3b17ZVvbSkwnDeJUKpNf3bjx/bHJyQlVfQz8CFx3HCfAtBzhtm3nqk43CcQOrF371serV+/KW1bexFVct/Ld+Hj/l9euDcx73jzwG/Cz4zgvGm2+8sPDtu3lQB/wdkIk/sX69Rs/XLWqL5dMvn750aMrn4+MnP7jyZMnwBh+yqZa2Vr0t7Zt2zawS1XXZBKJ+PZly5afun//PjCHn7IRM2X/yVnVIcBqoE9VbeAK0O84TmUx5/8B0tMwv+m68Q0AAAAASUVORK5CYII='
+                                const bravoRepeatbuttonimg = document.createElement('img');
+                                      bravoRepeatbuttonimg.className = 'bravoRepeatbuttonimg'
+                                      bravoRepeatbuttonimg.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAeCAYAAADdGWXmAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEMUlEQVRIia2WT2wUdRTHP2//Tl3KbgQ36UApUihRWKSwMQQSU5CDNw7cTDiIN0lMDMaEiyfPHD16RQ8cCEqCYDHyRyKlpZU/QRBqaztQltKFUhbKzPMwu7O/2Z0tNfqSzc7v/b6/9973vfd7M9LZ2YnrukVV3S4iOQBVRUQwJUq3kN7YnwEuzM/PDyRc130X+OCdXC77fj6/cqGD/1ZUlZ+mpv4enpnJJZPJmHR0dHxayGa7ju3Y8YkVj1v/m6eqVFy3suf8+a9/L5f/iolIri+ftxfjSF+xjsJb8bjVl8/bQC6mqgg+ZR+hAbCmU1XfsLEXGFSt602c1lECiAgJs0aNDkPPEcGEWBj7WleGcAnVhZMRmbr9+6G3tyWGu3fh8OGmYAJmi+7CVAo2b4Z0ujVmZAQa7InIK5iJwKFDkMnAkSNw9Sps3AjWAr3keTA46LPBrxdUmWEsRMSviYifmu5upKvLr0c6DapIsRhga4HWsqKqcOcOMj1dD9ZkFtUgUmNbLIajtiyfmYFtfGZgoGWDxKLSqACxGGzZEjZUKKCpVBPe8BqksHlroQZZtw6y2bCuWGwqfEhu3YJyORIjItHMAsOmWBZs2NDaEcDAQGjZePlj5qL6ALEY2tsbniCbNqHJZAirqvVznocODUVOkBqz6Abp6YH29nDUNVaqcPQo+uJF/dzOnX76yuUwo8YJEnj23fvGisVQDUUEqqy4fRs5dapuIZWCvXuhv79eq+r1aZTgUodIT0zA8eNNYFwXLl6sGwQoFCCR8LswaqYGS+NSB0xE4MyZZkeNUsNv3Qo3b8LsbBMbc4IALRqE6FdMYxY0nUYLBbh8OYRbsEFMo2BMEMN55CumUPA7d2gotB/VIKpKTFVnzjx4MPnc8yoiEjSKVH9UdVF7kskgJ08iT5/WdSZehJeqLy+USveAx/GlS5fqg+fPO8+WStfWLllidbS15QEJOtOspfmvCqOjfr1q+obUjc3NjX02PHzkXKlUAs7Gs9nshKo+vVepLPt2bOzPwZmZ6+vb25fk0+k3pIFV8G9EHsVmznXnvhkd/eGjS5dO3J6dLQO/eJ53LmgW27YtYBuwTVVTe1asWHGwp2d3dyazxoxcqq8fqdWt+g2DCJ6q9+vDh4MHh4dPjz979kxV7wAnHMeZhnBn1py+BrwHbAES+7q63jzQ3b17ZVvbSkwnDeJUKpNf3bjx/bHJyQlVfQz8CFx3HCfAtBzhtm3nqk43CcQOrF371serV+/KW1bexFVct/Ld+Hj/l9euDcx73jzwG/Cz4zgvGm2+8sPDtu3lQB/wdkIk/sX69Rs/XLWqL5dMvn750aMrn4+MnP7jyZMnwBh+yqZa2Vr0t7Zt2zawS1XXZBKJ+PZly5afun//PjCHn7IRM2X/yVnVIcBqoE9VbeAK0O84TmUx5/8B0tMwv+m68Q0AAAAASUVORK5CYII='
 
-                                bravoRepbutton.appendChild(bravoRepbuttonimg);
+                                bravoRepeatbutton.appendChild(bravoRepeatbuttonimg);
 
-                                const bravoRepbuttonSpan = document.createElement('span');
-                                      bravoRepbuttonSpan.className = 'bravoRepbuttonSpan'
-                                      bravoRepbuttonSpan.innerHTML = 'Bravo'
+                                const bravoRepeatbuttonspan = document.createElement('span');
+                                      bravoRepeatbuttonspan.className = 'bravoRepeatbuttonspan'
+                                      bravoRepeatbuttonspan.innerHTML = 'Bravo'
 
-                                bravoRepbutton.appendChild(bravoRepbuttonSpan);
+                                bravoRepeatbutton.appendChild(bravoRepeatbuttonspan);
 
-                                bravoRepbutton.addEventListener('click', function() {
+                                bravoRepeatbutton.addEventListener('click', function() {
 
                                         PressCount++
 
                                         if (PressCount % 2 == 1) {
 
                                                 MenuLogSpan.innerHTML = '> [Team Bravo] Clicker started'
-                                                bravoRepbutton.style = 'background: rgb(75 255 85 / 20%)'
+                                                bravoRepeatbutton.style = 'background: rgb(75 255 85 / 20%)'
 
                                                 bravoRepeat();
 
@@ -9928,7 +9987,7 @@
                                         if (PressCount % 2 == 0) {
 
                                                 MenuLogSpan.innerHTML = '> [Team Bravo] Clicker stopped'
-                                                bravoRepbutton.style = ''
+                                                bravoRepeatbutton.style = ''
 
                                                 bravoUnrepeat();
 
@@ -9940,185 +9999,142 @@
 
                         BravoClicker();
 
-                        function AutoReload() {
+                        function DMatchClicker() {
 
-                                const reloadRepbutton = document.createElement('div');
-                                      reloadRepbutton.className = 'reloadRepeatbutton'
+                                var PressCount = 0
 
-                                ToolPageHeader.appendChild(reloadRepbutton);
+                                function DMatchRepeat() {
 
-                                const reloadRepbuttonspan = document.createElement('div');
-                                      reloadRepbuttonspan.className = 'reloadRepeatbuttonspan'
-                                      reloadRepbuttonspan.style = 'position: absolute; left: 13em; font-family: RubikRegular; color: rgb(255 255 255 / 35%); width: 6em;'
-                                      reloadRepbuttonspan.innerHTML = ''
+                                        this.dmatchTimeout = setTimeout(function() {
 
-                                reloadRepbutton.appendChild(reloadRepbuttonspan);
+                                                document.body.dispatchEvent(new KeyboardEvent("keydown", {
 
-                                const reloadRepbuttonimg = document.createElement('img');
-                                      reloadRepbuttonimg.className = 'reloadRepbuttonimg'
-                                      reloadRepbuttonimg.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAAEcElEQVRogdXaX6hUVRTH8c+dbl1BE8pK0oRKt6lYGUUlWEGJoPRHxB7NKDQy+yu+FD1WD5ZYJpmYQVgPQRpFRBb2x0itSKjQvFvIMCnSIO61h5uGPey53TNnZu6dM/fP1Pdpzl5n7/2bOeusvdbe09bZ2WmQnIMbMQczMBkXYHTZfgLHcAj78QV2ogtCCE1N2tak8A4sxhLMxRkF+5/Cx3gFb4cQeurdGGNciE04jWUhhHcoLnwUVmAVJhQUW49f8Aw21foCMcajmbmOhhAuglKBCebjezxn6ETDhXgBB2KMc2vYs3NN7P3Q3sDAo7AW9/dzzz7Jb/egE0ck326TfH0SpuE6ybWuqDHGJdgRY3wZj/TnPgzsKuPxHq6uYevCRmzBwf4GqcF03IvlOLuGfTcWhRB+jTGezhpCCG0DCb8YH2JKrv0knsdT+KOg4Dzn4XE8qPrpR9wsPb1/6RVez8fHqy16P67BaoMXDcdDCI9JLvRDzhbwSb2OtYSPktwjL3o7rsW3TcusQwjhG0n8uznT5Hp9aglfq9qnX8Wd+HMwAvsjhNCFRXijkfvzfjVfdfTYjmX4e9DqqlkQY9wgvU+FyArvwLqcvRNLDY9oUlSa1EzHrKs8gKmZ65OSe3Q3r2tA2prt2Cu8Q1rGs6wzDC9ijuX4sZmOva6yWOXS2oWnBymqEd4PIVzaTMfeX/yuXPtGQxOnh42SlE/fkmvf0gIthSjhJpX59D7Fc48RpyRVLll2tkJIUUpSupllTyuEFKWkMnbzP3ATUjg8N9d2tBVCBiLGuECqPWFZu+pE/sTISmqYDfpKtw1Fas6WEWPsUJmITSipzkVqlVKtJq+pu4Tfc41DWcEPFRNz18dLUm2X5bIRElOEvKZYwoFc4/UjJKYIs3PXB0r4PNeYz1v+C+Q3inaV8KnKCmeW6tW0ZcQYZ2BmpukkPitJ6etHufvvGSlhDZDXsiOE0NUbx1/LGe+T0t2WEmMcV9aSZSt9hcRbKpf6sXhi+KUNyJMYk7k+gm30Ce/Bs7lOD+HKYZdWhxjjVVIBn2VNCOEvKqv8l1RmhmfiTS1YSWOMo/G6yu2TqC/JqhDeg4dzY0yV/L/oiUPTxBjbpd2s6Znm01iR3XrOJ1kfSFlYloXYbATEl0Vvxu050/oQQkXkq5UdrsJXuba7pRd4TNXdQ0SMcUx5jqU5015pd7iCWsJ7cKvqHOYO6QvNGrzMSsov4teqf+lO3Nb7Qmapl4//hnmqxU+TxK9VXTk1w7gY4zp8qTqR6sS8EMKxWh37KyQOSzsAebdpx6Nl+xrpbLMoM6Twe1gKCPld472YE0L4qd4AjRwXdpQnWdnPPd9JacNulYdXpHA6SYpQs6WEaWaNMUjRYz1W13KPosJ7mYcXpSOO4eAgVuajRz2K1Jw7cLn0aH9uQlg9jiiv0o2Kpvkj8bOkY48l0pNo5Lw0yylpzdiKbQO5RS2aFZ5lrLT/eIO02k3B+fpShW4pSh2Sqq1dUg3QTfN/QvgHzw8PKgEA+nEAAAAASUVORK5CYII='
+                                                        'bubbles': true,
+                                                        'cancelBubble': true,
+                                                        'cancelable': true,
+                                                        'charCode': 0,
+                                                        'ctrlKey': false,
+                                                        'location': 0,
+                                                        'code': "KeyJ",
+                                                        'char': 'J',
+                                                        'key': 'J',
+                                                        'shiftKey': false,
+                                                        'keyCode': 74,
+                                                        'which': 74,
+                                                        'repeat': true,
 
-                                reloadRepbutton.appendChild(reloadRepbuttonimg);
+                                                }));
 
-                                const repeatInput = document.createElement('input');
-                                      repeatInput.type = 'text'
-                                      repeatInput.className = 'repeatInput'
-                                      repeatInput.id = 'repeatInputModel'
-                                      repeatInput.placeholder = 'Delay...'
+                                                document.body.dispatchEvent(new KeyboardEvent("keyup", {
 
-                                ToolPageHeader.appendChild(repeatInput);
+                                                        'bubbles': true,
+                                                        'cancelBubble': true,
+                                                        'cancelable': true,
+                                                        'charCode': 0,
+                                                        'ctrlKey': false,
+                                                        'location': 0,
+                                                        'code': "KeyJ",
+                                                        'char': 'J',
+                                                        'key': 'J',
+                                                        'shiftKey': false,
+                                                        'keyCode': 74,
+                                                        'which': 74,
+                                                        'repeat': true,
 
-                                var timerPressCount = 0
+                                                }));
 
-                                var seconds = repeatInput.value
+                                                document.body.dispatchEvent(new KeyboardEvent("keydown", {
 
-                                let timer
+                                                        'bubbles': true,
+                                                        'cancelBubble': true,
+                                                        'cancelable': true,
+                                                        'charCode': 0,
+                                                        'ctrlKey': false,
+                                                        'location': 0,
+                                                        'code': "Enter",
+                                                        'char': '13',
+                                                        'key': '13',
+                                                        'shiftKey': false,
+                                                        'keyCode': 13,
+                                                        'which': 13,
+                                                        'repeat': true,
 
-                                reloadRepbutton.addEventListener('click', function() {
+                                                }));
 
-                                        let reloadRepeatbuttonspan = document.getElementsByClassName('reloadRepeatbuttonspan')[0];
+                                                document.body.dispatchEvent(new KeyboardEvent("keyup", {
 
-                                        let entrance = document.getElementsByClassName('Common-entranceBackground')[0];
+                                                        'bubbles': true,
+                                                        'cancelBubble': true,
+                                                        'cancelable': true,
+                                                        'charCode': 0,
+                                                        'ctrlKey': false,
+                                                        'location': 0,
+                                                        'code': "Enter",
+                                                        'char': '13',
+                                                        'key': '13',
+                                                        'shiftKey': false,
+                                                        'keyCode': 13,
+                                                        'which': 13,
+                                                        'repeat': true,
 
-                                        timerPressCount++
+                                                }));
 
-                                        seconds = repeatInput.value
+                                                return DMatchRepeat();
 
-                                        localStorage.setItem('timerValue', repeatInput.value);
+                                        }, 0);
 
-                                        if (seconds > 5 && seconds < 1200) {
+                                };
 
-                                                reloadRepeatbuttonspan.innerHTML = `// ${seconds} s`
+                                function DMatchUnrepeat() {
 
-                                                if (timerPressCount == 1) {
+                                        clearTimeout(this.dmatchTimeout);
 
-                                                        reloadRepbutton.style = 'background: rgb(75 255 85 / 20%)'
+                                };
 
-                                                        let image = document.getElementsByClassName('reloadRepbuttonimg')[0];
+                                const dmatchRepeatbutton = document.createElement('div');
+                                      dmatchRepeatbutton.className = 'dmatchRepeatbutton'
 
-                                                        if (image) {
+                                ToolPageHeader.appendChild(dmatchRepeatbutton);
 
-                                                            image.classList.add('rotating');
+                                const dmatchRepeatbuttonimg = document.createElement('img');
+                                      dmatchRepeatbuttonimg.className = 'dmatchRepeatbuttonimg'
+                                      dmatchRepeatbuttonimg.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAElklEQVQ4jYWUXWxURRiGn2/mnN3tLtvutvSHImjFHwRaQVE0pAQsEgg/CoheEIkXYBCjxsQYY4IXBpRLE9EoBEkwGEQ0gGAAIUIEYkKQtBYN0Cg0LQJdym7d7nb3nDPjRSkFS/C9mjMz75P53u/LkeHJRNzq0Hx7V6JBOyiMCUQEpRGUUdoVCTwMRiwGa6wFhAFZEY2PMR3pFvy+7x3jhuZWrKh43Z8dnaADFdYBgUsgSgoSwRMIBLT1UdbHtcZqQFsPBUCg0Uqbgt2nW1OfdxlHjUw0yOzw5PqSkzqXBzSOtWCsg7UOgwrw8VFicQVEQAkYC+ESnHOzJ07mh/IGR4XFDURLIQ9+ELlhf7x0Lo2VcxlX+hiJcCUAmWKKPzIn+Dm1l18yu4Aw4KPzfQSixQ0r1zGBDcS3gXX6a3Akyqp71jJn5ItEdIybVR6upi4+nqYRL7D/4lY+Of82RQNWQHwbWGMDR6Q/YGNB47Bi9HssHL2SOymsS1gwajmeKbD+/JuDDbIWZa0FAgIDriqjIdl4R9jNejjZSETVYuzgnrrOpggoUTji3NZ8OzniEtVR/jH93yKCEhFcDGIhF3Sxu2MT7dmz/wtrz55lZ8dGevzLBNeB1tqBFyoChJrQWPpMnndbl/JF2/v8nftrCOhy7gKb29awunUZBZOnNjTm1pKttXhoNJanKxexfMxqOgutfNn5IStPzWTH+Y+x9Du+u/Apr56axZbOtbQXmnmp7h1mVi25ERzQXzKAKw7TqxZSVTKKJTVvANDjX0SJxjdFPFNAKZerfjsAi6pfozp6N9OqFjDcGcxwYIkSn12dm1gV+4BVD65jTu0yMl6KMfF61p1+Bc/6vDX2I+6NjSXullMXH0/RFNjdseHWRvWPDWgFu698Rsbr5pFkIyU6RtOI59nTsZm23t/RIhy89DXPjnqZny7toDl9nOb0cQ53byPkDDZlyIwcubadI9e2A/BoxQymVy9iauU8RECLQ0+xm3XnVuHb3JCGiQgKpbQNiasUiJWbDsM0dx+lNFRORaSG8nANZaHhNKePAWBs3013wYbEtSJaR9xIfXxiuCH2QD7u+r0YT0AUPkVOpo+hAih1k/QUu9l/cSsbLqyhJ+gkLBECKzhuH7ZS0dtW3dW7M/2jVCRKx4XuL18RWpyYVT6tcF8yeiZkMwZrXXzj9WcjCh+DZ/v/L1EVwbNCKJonF6rjytFhbdltvYeKLV3rZfrhCL/OClcbZEr8yeHzYs9Fp5Y9kRuXkD8J+iziOQwmoYEAHfIwsSRX2mvT2V1yPP3VxR1BoXhg8iG/UyoqKqj/theAE0+pGhWLzyxrLJsVW1zSVFl/uVZHUjhpHy8owdV5TDxMLltL6lhpc3bLtb3ZM+mdTok6NWlPn9+yKMotwAGdnBkZ50bV1Nj8mgXx+UxJPJSpTJhOslSSujCyO7MxezCzr+sb0Rx59ECha8B3AwgMgbYsjDmFdGFCpCrelFxa+sywKYxK/Ra+mt+S2u5f7tk7ab9/+r9jcwvwthKwfcGwoGAmSHVyhrnW04oXHHKGOTkEsEMt/wKZBuvbn3OqlwAAAABJRU5ErkJggg=='
 
-                                                        };
+                                dmatchRepeatbutton.appendChild(dmatchRepeatbuttonimg);
 
-                                                        timer = setInterval(() => {
+                                const dmatchRepeatbuttonspan = document.createElement('span');
+                                      dmatchRepeatbuttonspan.className = 'dmatchRepeatbuttonspan'
+                                      dmatchRepeatbuttonspan.innerHTML = 'Deathmatch'
 
-                                                                seconds--
+                                dmatchRepeatbutton.appendChild(dmatchRepeatbuttonspan);
 
-                                                                let reloadRepeatbuttonspan = document.getElementsByClassName('reloadRepeatbuttonspan')[0];
+                                dmatchRepeatbutton.addEventListener('click', function() {
 
-                                                                if (reloadRepeatbuttonspan) {
+                                        PressCount++
 
-                                                                        reloadRepeatbuttonspan.innerHTML = `${seconds} s`
+                                        if (PressCount % 2 == 1) {
 
-                                                                };
+                                                MenuLogSpan.innerHTML = '> [Deathmatch] Clicker started'
+                                                dmatchRepeatbutton.style = 'background: rgb(75 255 85 / 20%)'
 
-                                                                let entrance = document.getElementsByClassName('Common-entranceBackground')[0];
+                                                DMatchRepeat();
 
-                                                                if (entrance) {
+                                        };
 
-                                                                        document.body.click();
+                                        if (PressCount % 2 == 0) {
 
-                                                                };
+                                                MenuLogSpan.innerHTML = '> [Deathmatch] Clicker stopped'
+                                                dmatchRepeatbutton.style = ''
 
-                                                                if (seconds === 0) {
-
-                                                                        document.location.reload();
-
-                                                                };
-
-                                                        }, 1000);
-
-                                                        localStorage.setItem('timerEnable', 'true');
-
-                                                };
-
-                                                if (timerPressCount == 2) {
-
-                                                        reloadRepbutton.style = ''
-
-                                                        reloadRepeatbuttonspan.innerHTML = ''
-
-                                                        clearInterval(timer);
-
-                                                        seconds = repeatInput.value
-
-                                                        timerPressCount = 0
-
-                                                        let image = document.getElementsByClassName('reloadRepbuttonimg')[0];
-
-                                                        if (image) {
-
-                                                            image.classList.remove('rotating');
-
-                                                        };
-
-                                                        localStorage.setItem('timerEnable', 'false');
-
-                                                };
-
-                                        } else {
-
-                                                MenuLogSpan.innerHTML = '> [Refresh] Incorrect delay value. Please enter a value from 5 to 1200 seconds'
-
-                                                timerPressCount = 0
+                                                DMatchUnrepeat();
 
                                         };
 
                                 });
 
-                                if (localStorage.getItem('timerEnable') == 'true') {
-
-                                        timerPressCount = 1
-
-                                        repeatInput.value = localStorage.getItem('timerValue');
-
-                                        seconds = repeatInput.value
-
-                                        reloadRepbutton.style = 'background: rgb(75 255 85 / 20%)'
-
-                                        let image = document.getElementsByClassName('reloadRepbuttonimg')[0];
-
-                                        if (image) {
-
-                                            image.classList.add('rotating');
-
-                                        };
-
-                                        timer = setInterval(() => {
-
-                                                seconds--
-
-                                                let reloadRepeatbuttonspan = document.getElementsByClassName('reloadRepeatbuttonspan')[0];
-
-                                                if (reloadRepeatbuttonspan) {
-
-                                                        reloadRepeatbuttonspan.innerHTML = `${seconds} s`
-
-                                                };
-
-                                                let entrance = document.getElementsByClassName('Common-entranceBackground')[0];
-
-                                                if (entrance) {
-
-                                                        document.body.click();
-
-                                                };
-
-                                                if (seconds === 0) {
-
-                                                        document.location.reload();
-
-                                                };
-
-                                        }, 1000);
-
-                                };
-
                         };
 
-                        AutoReload();
+                        DMatchClicker();
 
                 };
 
@@ -10548,6 +10564,20 @@
 
                                 var PressCount = 0
 
+                                var suppliesBindAlert = document.createElement('div');
+                                    suppliesBindAlert.className = 'suppliesBindAlert'
+
+                                var suppliesBindAlertSpan = document.createElement('span');
+                                    suppliesBindAlertSpan.className = 'suppliesBindAlertSpan'
+                                    suppliesBindAlertSpan.innerHTML = `> [Supplies] Clicker started with ${localStorage.getItem('RS_suppliesBindDelayValue')} delay`
+
+                                var suppliesBindOffAlert = document.createElement('div');
+                                    suppliesBindOffAlert.className = 'suppliesBindOffAlert'
+
+                                var suppliesBindOffAlertSpan = document.createElement('span');
+                                    suppliesBindOffAlertSpan.className = 'suppliesBindOffAlertSpan'
+                                    suppliesBindOffAlertSpan.innerHTML = '> [Supplies] Clicker stopped'
+
                                 document.body.addEventListener('keydown', function (Event) {
 
                                         if (Event.keyCode == localStorage.getItem('RS_suppliesBind')) {
@@ -10562,7 +10592,40 @@
 
                                                         if (PressCount % 2 == 1) {
 
-                                                                MenuLogSpan.innerHTML = `> [Supplies] Clicker started with ${suppliesInputValue} delay`
+                                                                clearTimeout(this.timeout1);
+                                                                clearTimeout(this.timeout2);
+
+                                                                if (MenuLogSpan) {
+
+                                                                        MenuLogSpan.innerHTML = `> [Supplies] Clicker started with ${suppliesInputValue} delay`
+
+                                                                };
+
+                                                                document.body.appendChild(suppliesBindAlert);
+
+                                                                suppliesBindAlert.appendChild(suppliesBindAlertSpan);
+
+                                                                this.timeout1 = setTimeout(function() {
+
+                                                                        if (suppliesBindAlert) {
+
+                                                                                suppliesBindAlert.style = 'animation: MenuTranslateUp 300ms ease-in-out forwards'
+
+                                                                        };
+
+                                                                }, 4000);
+
+                                                                this.timeout2 = setTimeout(function() {
+
+                                                                        if (suppliesBindAlert) {
+
+                                                                                suppliesBindAlert.style = ''
+
+                                                                                document.body.removeChild(suppliesBindAlert);
+
+                                                                        };
+
+                                                                }, 4300);
 
                                                                 bindSuppliesRepeat();
 
@@ -10570,7 +10633,40 @@
 
                                                         if (PressCount % 2 == 0) {
 
-                                                                MenuLogSpan.innerHTML = '> [Supplies] Clicker stopped'
+                                                                clearTimeout(this.timeout3);
+                                                                clearTimeout(this.timeout4);
+
+                                                                if (MenuLogSpan) {
+
+                                                                        MenuLogSpan.innerHTML = '> [Supplies] Clicker stopped'
+
+                                                                };
+
+                                                                document.body.appendChild(suppliesBindOffAlert);
+
+                                                                suppliesBindOffAlert.appendChild(suppliesBindOffAlertSpan);
+
+                                                                this.timeout3 = setTimeout(function() {
+
+                                                                        if (suppliesBindOffAlert) {
+
+                                                                                suppliesBindOffAlert.style = 'animation: MenuTranslateUp 300ms ease-in-out forwards'
+
+                                                                        };
+
+                                                                }, 4000);
+
+                                                                this.timeout4 = setTimeout(function() {
+
+                                                                        if (suppliesBindOffAlert) {
+
+                                                                                suppliesBindOffAlert.style = ''
+
+                                                                                document.body.removeChild(suppliesBindOffAlert);
+
+                                                                        };
+
+                                                                }, 4300);
 
                                                                 bindSuppliesUnrepeat();
 
@@ -10657,6 +10753,20 @@
 
                                 var PressCount = 0
 
+                                var minesBindAlert = document.createElement('div');
+                                    minesBindAlert.className = 'minesBindAlert'
+
+                                var minesBindAlertSpan = document.createElement('span');
+                                    minesBindAlertSpan.className = 'minesBindAlertSpan'
+                                    minesBindAlertSpan.innerHTML = `> [Mines] Clicker started with ${localStorage.getItem('RS_minesBindDelayValue')} delay`
+
+                                var minesBindOffAlert = document.createElement('div');
+                                    minesBindOffAlert.className = 'minesBindOffAlert'
+
+                                var minesBindOffAlertSpan = document.createElement('span');
+                                    minesBindOffAlertSpan.className = 'minesBindOffAlertSpan'
+                                    minesBindOffAlertSpan.innerHTML = '> [Mines] Clicker stopped'
+
                                 document.body.addEventListener('keydown', function (Event) {
 
                                         if (Event.keyCode == localStorage.getItem('RS_minesBind')) {
@@ -10671,7 +10781,40 @@
 
                                                         if (PressCount % 2 == 1) {
 
-                                                                MenuLogSpan.innerHTML = `> [Mines] Clicker started with ${MinesInputValue} delay`
+                                                                clearTimeout(this.timeout1);
+                                                                clearTimeout(this.timeout2);
+
+                                                                if (MenuLogSpan) {
+
+                                                                        MenuLogSpan.innerHTML = `> [Mines] Clicker started with ${MinesInputValue} delay`
+
+                                                                };
+
+                                                                document.body.appendChild(minesBindAlert);
+
+                                                                minesBindAlert.appendChild(minesBindAlertSpan);
+
+                                                                this.timeout1 = setTimeout(function() {
+
+                                                                        if (minesBindAlert) {
+
+                                                                                minesBindAlert.style = 'animation: MenuTranslateUp 300ms ease-in-out forwards'
+
+                                                                        };
+
+                                                                }, 4000);
+
+                                                                this.timeout2 = setTimeout(function() {
+
+                                                                        if (minesBindAlert) {
+
+                                                                                minesBindAlert.style = ''
+
+                                                                                document.body.removeChild(minesBindAlert);
+
+                                                                        };
+
+                                                                }, 4300);
 
                                                                 bindMinesRepeat();
 
@@ -10679,7 +10822,40 @@
 
                                                         if (PressCount % 2 == 0) {
 
-                                                                MenuLogSpan.innerHTML = '> [Mines] Clicker stopped'
+                                                                clearTimeout(this.timeout3);
+                                                                clearTimeout(this.timeout4);
+
+                                                                if (MenuLogSpan) {
+
+                                                                        MenuLogSpan.innerHTML = '> [Mines] Clicker stopped'
+
+                                                                };
+
+                                                                document.body.appendChild(minesBindOffAlert);
+
+                                                                minesBindOffAlert.appendChild(minesBindOffAlertSpan);
+
+                                                                this.timeout3 = setTimeout(function() {
+
+                                                                        if (minesBindOffAlert) {
+
+                                                                                minesBindOffAlert.style = 'animation: MenuTranslateUp 300ms ease-in-out forwards'
+
+                                                                        };
+
+                                                                }, 4000);
+
+                                                                this.timeout4 = setTimeout(function() {
+
+                                                                        if (minesBindOffAlert) {
+
+                                                                                minesBindOffAlert.style = ''
+
+                                                                                document.body.removeChild(minesBindOffAlert);
+
+                                                                        };
+
+                                                                }, 4300);
 
                                                                 bindMinesUnrepeat();
 
@@ -10687,7 +10863,12 @@
 
                                                 } else {
 
-                                                        MenuLogSpan.innerHTML = '> [Mines] Incorrect delay value'
+                                                        if (MenuLogSpan) {
+
+                                                                MenuLogSpan.innerHTML = '> [Mines] Incorrect delay value'
+
+                                                        };
+
                                                         PressCount = 0
 
                                                         bindMinesUnrepeat();
