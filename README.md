@@ -12,7 +12,7 @@
 
 ## Установка на клиент
 1. Установите [официальный клиент игры](https://tankionline.com/desktop/TankiOnlineSetup.exe)
-2. Скачайте [файл app.asar](https://github.com/Indifferental/Retrospective/raw/main/scripts/app.asar)*
+2. Скачайте [файл app.asar](https://github.com/Indifferental/Retrospective/raw/main/scripts/app.asar) *(Учтите, что код регулярно обновляется на Github)*
 3. Откройте папку с расположением файлов игры
 4. В папке resources замените файл app.asar на скачанный вами
 
@@ -30,9 +30,6 @@ In future updates, it is planned to add any custom background with instructions.
 
 ## Client installation
 1. Install [official game client](https://tankionline.com/desktop/TankiOnlineSetup.exe)
-2. Download [the app.asar file](https://github.com/Indifferental/Retrospective/raw/main/scripts/app.asar)*
+2. Download [the app.asar file](https://github.com/Indifferental/Retrospective/raw/main/scripts/app.asar) *(Note that the code is regulary updating on Github)*
 3. Open the folder with the location of the game files
 4. In the resources folder, replace the app.asar file with the one you downloaded
-
-
-* *Note that the code is regulary updating*
