@@ -16,8 +16,6 @@
 3. Откройте папку с расположением файлов игры
 4. В папке resources замените файл app.asar на скачанный вами
 
-* *Учтите, что код регулярно обновляется*
-
 ## Description
 Custom theme for Tanki Online. The main menu, the garage, and the original game design were completely redesigned; the tab was expanded and supplemented with a permanent display of resistances. At the moment, the function of changing several backgrounds in the `F9` menu, visually hiding supplies in the garage, nickname and rank, crystals and tankoins has been implemented.
 
