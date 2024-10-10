@@ -5173,48 +5173,6 @@
                         border-radius: 0.5em;
                 }
 
-                .NewShopCommonComponentStyle-gradient,
-                .NewShopCommonComponentStyle-commonContainer {
-                        background: unset;
-
-                        justify-content: center;
-                        margin-top: 1em;
-                }
-
-                .ShopCategoryOfferSectionStyle-containerItem {
-                        position: absolute;
-                        margin-right: unset;
-                        z-index: 10;
-                }
-
-                .NewShopCommonComponentStyle-commonBlockMenuShop {
-                        position: absolute;
-                        margin-left: unset;
-                        z-index: 10;
-                }
-
-                .ShopSelectedSectionComponentStyle-commonCell {
-                        box-shadow: var(--menu-box-shadow);
-                        backdrop-filter: var(--menu-backdrop-filter);
-
-                        transition: var(--menu-transition);
-                }
-
-                .ShopSelectedSectionComponentStyle-commonCell:hover {
-                        backdrop-filter: var(--hover-backdrop-filter);
-                }
-
-                .ShopSelectedSectionComponentStyle-cell,
-                .ShopSelectedSectionComponentStyle-limitedOffersCommon {
-                        box-shadow: var(--menu-box-shadow);
-
-                        transition: var(--menu-transition);
-                }
-
-                .ShopSelectedSectionComponentStyle-scrollContainerShop > .Common-flexSpaceBetweenAlignStretchColumn > div:hover {
-                        background: var(--hover-background);
-                }
-
                 .wrapper {
                         align-items: center;
                 }
