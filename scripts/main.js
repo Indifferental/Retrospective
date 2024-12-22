@@ -440,7 +440,7 @@
 
                 .entranceGradient-firstText {
                         color: rgb(255 255 255 / 90%);
-                        font-family: RubikMedium;
+                        font-family: 'BaseFontRegular';
                         font-style: normal;
                         font-size: 2em;
                         opacity: 0;
@@ -452,7 +452,7 @@
 
                 .entranceGradient-secondText {
                         color: rgb(255 255 255 / 90%);
-                        font-family: RubikMedium;
+                        font-family: 'BaseFontRegular';
                         font-style: normal;
                         font-size: 2em;
                         opacity: 0;
@@ -1415,14 +1415,14 @@
                 .UserInfoContainerStyle-containerProgressMainScreen > .UserInfoContainerStyle-containerParameterProgress > .UserInfoContainerStyle-progressValue > span {
                         color: rgb(255 255 255);
                         text-shadow: unset !important;
-                        font-family: 'RubikRegular';
+                        font-family: 'BaseFontRegular';
                 }
 
                 .UserInfoContainerStyle-progressValue {
                         margin-left: 0px;
                         color: rgb(255 255 255);
                         text-shadow: rgb(255 255 255) 0em 0em 0.25em;
-                        font-family: 'RubikRegular';
+                        font-family: 'BaseFontRegular';
                 }
 
                 .UserInfoContainerStyle-xpIcon {
@@ -1807,6 +1807,15 @@
                         100% {
                                 opacity: 0;
                         }
+                }
+
+                .MainScreenComponentStyle-container {
+                        align-items: center;
+                }
+
+                .MainScreenComponentStyle-container > .Common-displayFlex {
+                        margin-top: 9em;
+                        margin-left: unset;
                 }
 
                 .MainScreenComponentStyle-buttonPlay {
@@ -2312,7 +2321,7 @@
                         content: 'Current progress';
                         color: white;
                         position: absolute;
-                        font-family: 'RubikMedium';
+                        font-family: ''BaseFontRegular'';
                         text-transform: uppercase;
                         width: 11em;
                         top: -0.85em;
@@ -2399,7 +2408,7 @@
                 .BattlePassLobbyComponentStyle-timers span {
                         background: transparent;
                         color: white;
-                        font-family: 'RubikMedium';
+                        font-family: ''BaseFontRegular'';
                         font-size: 1.125em;
                         text-shadow: 0 0 4px rgb(0 0 0 / 50%);
                 }
@@ -3113,7 +3122,7 @@
 
                         position: absolute;
                         z-index: 3;
-                        font-family: RubikRegular;
+                        font-family: 'BaseFontRegular';
                         font-style: normal;
                         font-weight: normal;
                 }
@@ -5490,7 +5499,7 @@
 
                 .MenuSpan {
                         color: rgb(255 255 255 / 75%);
-                        font-family: 'RubikMedium';
+                        font-family: ''BaseFontRegular'';
 
                         position: absolute;
                         padding-bottom: 0.4em;
@@ -5525,7 +5534,7 @@
                         border-top-right-radius: 0.5em;
 
                         color: rgb(255 255 255 / 35%);
-                        font-family: 'RubikBold';
+                        font-family: 'BaseFontMedium';
                         font-size: 1em;
 
                         transition: var(--menu-transition);
@@ -5837,7 +5846,7 @@
                         pointer-events: none;
                         color: rgba(255, 255, 255, 0.5);
                         text-shadow: 0 0 4px rgb(0 0 0 / 25%);
-                        font-family: RubikMedium;
+                        font-family: 'BaseFontRegular';
                         right: 13.5em;
                         width: 32em;
                         font-size: 1em;
@@ -5856,7 +5865,7 @@
                         pointer-events: none;
                         color: rgba(255, 255, 255, 0.5);
                         text-shadow: 0 0 4px rgb(0 0 0 / 25%);
-                        font-family: RubikMedium;
+                        font-family: 'BaseFontRegular';
                         right: 7.5em;
                         width: 16em;
                         font-size: 1em;
@@ -5964,7 +5973,7 @@
 
                 .minesRepeatbuttonspan {
                         font-size: 1.2em;
-                        font-family: 'RubikRegular';
+                        font-family: 'BaseFontRegular';
                         color: rgb(255 255 255 / 35%);
                         text-shadow: 0 0 6px rgb(0 0 0 / 40%);
                         pointer-events: none;
@@ -6039,7 +6048,7 @@
 
                 .suppliesRepeatbuttonspan {
                         font-size: 1.2em;
-                        font-family: 'RubikRegular';
+                        font-family: 'BaseFontRegular';
                         color: rgb(255 255 255 / 35%);
                         text-shadow: 0 0 6px rgb(0 0 0 / 40%);
                         pointer-events: none;
@@ -6204,7 +6213,7 @@
                 .bravoRepeatbuttonspan,
                 .dmatchRepeatbuttonspan {
                         font-size: 1.2em;
-                        font-family: 'RubikRegular';
+                        font-family: 'BaseFontRegular';
                         color: rgb(255 255 255 / 35%);
                         text-shadow: 0 0 6px rgb(0 0 0 / 40%);
                         pointer-events: none;
@@ -6688,13 +6697,13 @@
 
                 const MenuSpan = document.createElement('span');
                       MenuSpan.className = 'MenuSpan'
-                      MenuSpan.innerHTML = 'Retrospective [26.09.2024 release]'
+                      MenuSpan.innerHTML = 'Retrospective [22.12.2024 release]'
 
                       MenuPage.appendChild(MenuSpan);
 
                 const MenuSpanChng1 = document.createElement('span');
                       MenuSpanChng1.className = 'MenuSpanChng1'
-                      MenuSpanChng1.innerHTML = '• In the next updates it is planned to develop a function with the addition of your own background and some other things.'
+                      MenuSpanChng1.innerHTML = '• Fixed some bugs.'
 
                       MenuPage.appendChild(MenuSpanChng1);
 
