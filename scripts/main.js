@@ -5102,14 +5102,6 @@
                         animation: blending 100ms ease-in-out;
                 }
 
-                .BattleHudComponentStyle-buttonsContainer > div,
-                .BattleHudComponentStyle-buttonsContainer {
-                        display: flex;
-                        flex-direction: row;
-                        align-items: center;
-                        height: 2.5em;
-                }
-
                 .BattleHudComponentStyle-buttonsContainer > div > .BattleHudComponentStyle-fullScreenButton,
                 .BattleHudComponentStyle-buttonsContainer > div > .BattleHudComponentStyle-pauseButton,
                 .BattleHudComponentStyle-buttonsContainer > div > .BattleHudComponentStyle-tabButton {
@@ -5118,9 +5110,9 @@
                         backdrop-filter: var(--menu-backdrop-filter);
                         border-radius: 0.35em;
 
+                        width: 5em;
+
                         transition: var(--menu-transition);
-                        width: 10em;
-                        margin: 0.25em;
                 }
 
                 .BattleHudComponentStyle-buttonsContainer > div > .BattleHudComponentStyle-fullScreenButton:hover,
@@ -5129,10 +5121,6 @@
                         background: var(--hover-background);
                         box-shadow: var(--hover-box-shadow);
                         backdrop-filter: var(--hover-backdrop-filter);
-                }
-
-                .BattleHudComponentStyle-buttonsContainer > div > .BattleHudComponentStyle-tabButton {
-                        margin-right: 2em;
                 }
 
                 .Common-changingBackground {
@@ -6462,60 +6450,6 @@
                 .BNDBTN_1DelayContainer:hover,
                 .BNDBTN_2DelayContainer:hover {
                         background: rgb(255 255 255 / 10%);
-                }
-
-                .minesBindAlert,
-                .suppliesBindAlert {
-                        background: linear-gradient(225deg, rgb(30 30 30) 20%, rgb(45 45 45));
-                        box-shadow: var(--sh-box-shadow);
-                        border-radius: 0.5em;
-
-                        position: absolute;
-                        display: flex;
-                        align-items: center;
-                        justify-content: flex-start;
-                        top: -2em;
-                        left: 2em;
-                        z-index: 1001;
-                        width: 36em;
-                        height: 2em;
-
-                        animation: 300ms ease-in-out 0s 1 normal forwards running MenuTranslateDown;
-                }
-
-                .minesBindAlertSpan,
-                .suppliesBindAlertSpan {
-                        color: rgb(255 255 255 / 50%);
-
-                        position: absolute;
-                        left: 0.6em;
-                }
-
-                .minesBindOffAlert,
-                .suppliesBindOffAlert {
-                        background: linear-gradient(225deg, rgb(30 30 30) 20%, rgb(45 45 45));
-                        box-shadow: var(--sh-box-shadow);
-                        border-radius: 0.5em;
-
-                        position: absolute;
-                        display: flex;
-                        align-items: center;
-                        justify-content: flex-start;
-                        top: -2em;
-                        left: 2em;
-                        z-index: 1001;
-                        width: 36em;
-                        height: 2em;
-
-                        animation: 300ms ease-in-out 0s 1 normal forwards running MenuTranslateDown;
-                }
-
-                .minesBindOffAlertSpan,
-                .suppliesBindOffAlertSpan {
-                        color: rgb(255 255 255 / 50%);
-
-                        position: absolute;
-                        left: 0.6em;
                 }
 
                 `
