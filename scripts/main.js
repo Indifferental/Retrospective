@@ -5110,8 +5110,6 @@
                         backdrop-filter: var(--menu-backdrop-filter);
                         border-radius: 0.35em;
 
-                        width: 5em;
-
                         transition: var(--menu-transition);
                 }
 
